@@ -13,19 +13,91 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5000,
+          "bottomRow": 1290,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 76,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Iframe1",
+              "srcDoc": "",
+              "displayName": "Iframe",
+              "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+              "searchTags": [
+                "embed"
+              ],
+              "topRow": 0,
+              "bottomRow": 49,
+              "parentRowSpace": 10,
+              "source": "https://app.appsmith.com/app/an-ai-adventure/home-63986ccc038c74195c0ab01d?branch=master",
+              "type": "IFRAME_WIDGET",
+              "hideCard": false,
+              "borderOpacity": 100,
+              "animateLoading": true,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "borderWidth": 1,
+              "key": "2nubigzep9",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "n74rq5l3qx",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "widgetName": "Audio1",
+              "displayName": "Audio",
+              "iconSVG": "/static/media/icon.cb54df7a09016b0af5e520895be927b9.svg",
+              "searchTags": [
+                "mp3",
+                "sound",
+                "wave",
+                "player"
+              ],
+              "topRow": 50,
+              "bottomRow": 54,
+              "parentRowSpace": 10,
+              "type": "AUDIO_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [],
+              "key": "hqx89oxmoj",
+              "isDeprecated": false,
+              "rightColumn": 30,
+              "widgetId": "nvfd4bhpai",
+              "isVisible": true,
+              "version": 1,
+              "url": "https://assets.appsmith.com/widgets/birds_chirping.mp3",
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "autoPlay": false
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],

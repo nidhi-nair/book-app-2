@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Ecommerce Store",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     }

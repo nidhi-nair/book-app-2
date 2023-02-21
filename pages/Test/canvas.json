@@ -423,7 +423,7 @@
               "bottomRow": 37,
               "parentRowSpace": 10,
               "type": "MODAL_WIDGET",
-              "shouldScrollContents": false,
+              "shouldScrollContents": true,
               "parentColumnSpace": 18.8828125,
               "dynamicTriggerPathList": [],
               "leftColumn": 21,

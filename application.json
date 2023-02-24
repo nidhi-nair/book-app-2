@@ -1,6 +1,18 @@
 {
   "pages": [
     {
+      "id": "Car servicing",
+      "isDefault": false
+    },
+    {
+      "id": "Car showroom",
+      "isDefault": false
+    },
+    {
+      "id": "Business dashboard",
+      "isDefault": false
+    },
+    {
       "id": "Home",
       "isDefault": true
     },
@@ -12,8 +24,8 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#C7F3E3",
-  "icon": "file",
+  "color": "#FBF4ED",
+  "icon": "bitcoin",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },

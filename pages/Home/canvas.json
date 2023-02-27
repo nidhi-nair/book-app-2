@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -165,6 +165,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "columnUpdatedAt": 1677492088313,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -223,7 +224,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"productname\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "mrp": {
                   "allowCellWrapping": false,
@@ -251,7 +253,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"mrp\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "listingprice": {
                   "allowCellWrapping": false,
@@ -279,7 +282,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"listingprice\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "imageurl": {
                   "allowCellWrapping": false,
@@ -307,7 +311,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"imageurl\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "description": {
                   "allowCellWrapping": false,
@@ -335,7 +340,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "category": {
                   "allowCellWrapping": false,
@@ -363,7 +369,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"category\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "islisted": {
                   "allowCellWrapping": false,
@@ -391,7 +398,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"islisted\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "availabilitydate": {
                   "allowCellWrapping": false,
@@ -419,7 +427,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"availabilitydate\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "channel": {
                   "allowCellWrapping": false,
@@ -447,7 +456,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"channel\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "id": {
                   "allowCellWrapping": false,
@@ -475,7 +485,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"id\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "createdat": {
                   "allowCellWrapping": false,
@@ -503,7 +514,8 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"createdat\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 },
                 "updatedat": {
                   "allowCellWrapping": false,
@@ -531,10 +543,12 @@
                   "isDiscardVisible": true,
                   "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"updatedat\"]))}}",
                   "validation": {},
-                  "cellBackground": ""
+                  "cellBackground": "",
+                  "sticky": ""
                 }
               },
               "key": "pd6s8cwdkt",
+              "canFreezeColumn": false,
               "isDeprecated": false,
               "rightColumn": 34,
               "textSize": "0.875rem",
@@ -554,6 +568,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Home_select_discount",
               "name": "select_discount",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 900,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -1540,15 +1540,16 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Test_SelectQuery",
               "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "data_table.sortOrder.column || 'value'",
-                "data_table.sortOrder.order || 'ASC'",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "data_table.pageSize",
                 "data_table.searchText || \"\"",
-                "(data_table.pageNo - 1) * data_table.pageSize"
+                "data_table.sortOrder.column || 'value'",
+                "data_table.sortOrder.order || 'ASC'"
               ],
               "timeoutInMillisecond": 10000
             }

@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -3264,11 +3264,34 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Business dashboard_chartFromTo",
+              "name": "chartFromTo",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.fromDate",
+                "appsmith.store.toDate"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
               "id": "Business dashboard_select_repair_db",
               "name": "select_repair_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Business dashboard_select_repair_revenue",
+              "name": "select_repair_revenue",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "appsmith.store.fromDate",
+                "appsmith.store.toDate",
+                "statusDropdown.selectedOptionValue"
+              ],
               "timeoutInMillisecond": 10000
             },
             {
@@ -3306,36 +3329,11 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_chartFromTo",
-              "name": "chartFromTo",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.fromDate",
-                "appsmith.store.toDate"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Business dashboard_monthly_showroom_revenue",
               "name": "monthly_showroom_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Business dashboard_select_repair_revenue",
-              "name": "select_repair_revenue",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "appsmith.store.fromDate",
-                "appsmith.store.toDate",
-                "statusDropdown.selectedOptionValue"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]

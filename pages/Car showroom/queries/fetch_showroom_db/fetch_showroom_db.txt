@@ -1,0 +1,16 @@
+INSERT INTO showroom_db
+	(customer_id,customer_name,sales_id,customer_email,customer_phone,car_type, car_model_name,car_model_type,car_chassis_no,selling_price,salesperson_responsible,rating, salesperson_id) values
+	({{customer_id_input.text}},
+	 {{customer_name_input.text}},
+	 {{sales_id_input.text}},
+	 {{customer_email_input.text}},
+	 {{cust_phone_input.text}},
+	 {{car_type_input.selectedOptionValue}}, 
+	 {{model_name_select.selectedOptionValue}},
+	 {{car_model_type_input.selectedOptionValue}},
+	 {{car_chassis_no_input.text}},
+	 {{sp_input.value}},
+	 {{select_salesperson2.selectedOptionLabel}},
+	 {{Rating2.value}},
+	 {{select_salesperson2.selectedOptionValue}}
+	);

@@ -1,0 +1,6 @@
+INSERT INTO public."employees" (
+	"value",
+	"label")
+VALUES (
+	'{{insert_form.formData.value}}',
+	'{{insert_form.formData.label}}');

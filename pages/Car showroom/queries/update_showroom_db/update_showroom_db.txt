@@ -1,0 +1,7 @@
+UPDATE showroom_db
+SET customer_phone= {{PhoneInput1.text}}, 
+		customer_email= {{Input1.text}},
+		selling_price={{CurrencyInput3.value}},
+		salesperson_responsible={{salesperson_select1.selectedOptionLabel}},
+		salesperson_id={{salesperson_select1.selectedOptionValue}}
+WHERE sales_id={{List.selectedItem.sales_id}};

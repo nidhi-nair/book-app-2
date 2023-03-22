@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 750,
+          "bottomRow": 680,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -78,7 +78,7 @@
               "borderColor": "#E0DEDE",
               "isVisibleDownload": true,
               "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
-              "topRow": 22,
+              "topRow": 14,
               "isSortable": true,
               "type": "TABLE_WIDGET_V2",
               "inlineEditingSaveOption": "ROW_LEVEL",
@@ -168,7 +168,7 @@
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "columnUpdatedAt": 1677492088313,
-              "originalBottomRow": 55,
+              "originalBottomRow": 47,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -190,7 +190,7 @@
               ],
               "dynamicPropertyPathList": [],
               "displayName": "Table",
-              "bottomRow": 55,
+              "bottomRow": 47,
               "columnWidthMap": {
                 "task": 245,
                 "step": 62,
@@ -563,52 +563,9 @@
               "renderMode": "CANVAS",
               "horizontalAlignment": "LEFT",
               "isVisibleSearch": true,
-              "originalTopRow": 22,
+              "originalTopRow": 14,
               "isVisiblePagination": true,
               "verticalAlignment": "CENTER"
-            },
-            {
-              "boxShadow": "none",
-              "widgetName": "AudioRecorder1",
-              "displayName": "Audio Recorder",
-              "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
-              "searchTags": [
-                "sound recorder",
-                "voice recorder"
-              ],
-              "topRow": 13,
-              "bottomRow": 20,
-              "parentRowSpace": 10,
-              "type": "AUDIO_RECORDER_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 17.9375,
-              "leftColumn": 0,
-              "dynamicBindingPathList": [
-                {
-                  "key": "accentColor"
-                },
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "isDisabled": false,
-              "key": "bl6xo2omhh",
-              "isDeprecated": false,
-              "rightColumn": 16,
-              "widgetId": "i7tp91f3bq",
-              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-              "minWidth": 450,
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "responsiveBehavior": "fill",
-              "originalTopRow": 13,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "originalBottomRow": 20,
-              "iconColor": "white"
             },
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -620,8 +577,8 @@
                 "input",
                 "rte"
               ],
-              "topRow": 55,
-              "bottomRow": 75,
+              "topRow": 48,
+              "bottomRow": 68,
               "parentRowSpace": 10,
               "labelWidth": 5,
               "type": "RICH_TEXT_EDITOR_WIDGET",
@@ -659,10 +616,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 55,
+              "originalTopRow": 48,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 75,
+              "originalBottomRow": 68,
               "defaultText": "{{appsmith.user}}",
               "minDynamicHeight": 4
             },

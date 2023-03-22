@@ -18,6 +18,7 @@
       "paginationType": "NONE",
       "path": "template_table/{{data_table.selectedRow._ref}}",
       "encodeParamsToggle": true,
+      "body": "",
       "selfReferencingDataPaths": [],
       "formData": {
         "collection": {

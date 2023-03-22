@@ -17,6 +17,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "body": "",
       "selfReferencingDataPaths": [],
       "formData": {
         "body": {

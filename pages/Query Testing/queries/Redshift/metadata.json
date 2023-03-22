@@ -18,21 +18,15 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "{{MainContainer}}",
+      "body": "select datname, nspname, relname, sum(rows) as rows\nfrom pg_class, pg_namespace, pg_database, stv_tbl_perm\nwhere pg_namespace.oid = relnamespace\nand pg_class.oid = stv_tbl_perm.id\nand pg_database.oid = stv_tbl_perm.db_id\nand datname ='tickit'\ngroup by datname, nspname, relname\norder by datname, nspname, relname;",
       "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "MainContainer"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

@@ -15,8 +15,10 @@
     },
     "pageId": "Query Testing",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "body": "SELECT * FROM public.\"employees\"\nWHERE \"label\" ilike '%{{data_table.searchText || \"\"}}%'\nORDER BY \"{{data_table.sortOrder.column || 'value'}}\" {{data_table.sortOrder.order || 'ASC'}}\nLIMIT {{data_table.pageSize}}\nOFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -25,10 +27,21 @@
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "(data_table.pageNo - 1) * data_table.pageSize",
+      "data_table.pageSize",
+      "data_table.searchText || \"\"",
+      "data_table.sortOrder.column || 'value'",
+      "data_table.sortOrder.order || 'ASC'"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

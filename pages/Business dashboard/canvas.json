@@ -3264,7 +3264,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Business dashboard_chartFromTo",
               "name": "chartFromTo",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3275,7 +3274,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_select_repair_db",
               "name": "select_repair_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3283,7 +3281,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_select_repair_revenue",
               "name": "select_repair_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3295,7 +3292,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_select_showroom_db",
               "name": "select_showroom_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3305,7 +3301,6 @@
           ],
           [
             {
-              "id": "Business dashboard_avg_feed_repair",
               "name": "avg_feed_repair",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3313,7 +3308,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_avg_feed_sales",
               "name": "avg_feed_sales",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3321,7 +3315,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_carsales_revenue",
               "name": "carsales_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3329,7 +3322,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Business dashboard_monthly_showroom_revenue",
               "name": "monthly_showroom_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

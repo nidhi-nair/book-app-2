@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -963,6 +963,9 @@
                       "dynamicPropertyPathList": [
                         {
                           "key": "fontSize"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "displayName": "Text",
@@ -978,7 +981,11 @@
                       "overflow": "NONE",
                       "fontFamily": "System Default",
                       "leftColumn": 3,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Maintenance deals",
                       "key": "czyq0gtp0e",
@@ -987,7 +994,7 @@
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
                       "widgetId": "fcm4u61iyj",
-                      "isVisible": true,
+                      "isVisible": "{{JSObject.search()}}",
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
                       "version": 1,
@@ -2243,7 +2250,7 @@
                   "widgetName": "Canvas21",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 730,
+                  "bottomRow": 720,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,

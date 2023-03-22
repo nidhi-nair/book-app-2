@@ -4,7 +4,7 @@ export default {
 	myFun1: () => {
 		//write code here
 	},
-	myFun2: asyncs () => {
+	myFun2: async () => {
 		
 	}
 }

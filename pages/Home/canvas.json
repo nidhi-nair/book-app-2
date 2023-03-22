@@ -27,7 +27,7 @@
           "leftColumn": 0,
           "children": [
             {
-              "resetFormOnClick": false,
+              "resetFormOnClick": "false",
               "boxShadow": "none",
               "widgetName": "Button1",
               "onClick": "",
@@ -35,6 +35,9 @@
               "dynamicPropertyPathList": [
                 {
                   "key": "isDisabled"
+                },
+                {
+                  "key": "resetFormOnClick"
                 }
               ],
               "displayName": "Button",
@@ -642,6 +645,11 @@
               "widgetName": "Container1",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "isVisible"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
               "searchTags": [
@@ -754,7 +762,7 @@
               "widgetId": "nsfqifjdbh",
               "containerStyle": "card",
               "minWidth": 450,
-              "isVisible": true,
+              "isVisible": "true",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",

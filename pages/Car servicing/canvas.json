@@ -963,6 +963,9 @@
                       "dynamicPropertyPathList": [
                         {
                           "key": "fontSize"
+                        },
+                        {
+                          "key": "isVisible"
                         }
                       ],
                       "displayName": "Text",
@@ -978,7 +981,11 @@
                       "overflow": "NONE",
                       "fontFamily": "System Default",
                       "leftColumn": 3,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "isVisible"
+                        }
+                      ],
                       "truncateButtonColor": "#FFC13D",
                       "text": "Maintenance deals",
                       "key": "czyq0gtp0e",
@@ -987,7 +994,7 @@
                       "textAlign": "LEFT",
                       "dynamicHeight": "FIXED",
                       "widgetId": "fcm4u61iyj",
-                      "isVisible": true,
+                      "isVisible": "{{JSObject.search()}}",
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
                       "version": 1,
@@ -3253,6 +3260,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Car servicing_select_supervisor_db",
               "name": "select_supervisor_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3262,6 +3270,7 @@
           ],
           [
             {
+              "id": "Car servicing_select_repair_db",
               "name": "select_repair_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

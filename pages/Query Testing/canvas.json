@@ -27,6 +27,7 @@
           "children": []
         },
         "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Query Testing",
         "deleted": false,

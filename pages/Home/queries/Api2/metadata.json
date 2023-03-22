@@ -21,7 +21,7 @@
       "paginationType": "NONE",
       "headers": [
         {
-          "key": "",
+          "key": "title",
           "value": "{{Button1.text}}"
         }
       ],

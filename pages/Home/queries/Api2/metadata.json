@@ -17,6 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
+      "path": "",
       "headers": [
         {
           "key": "title",

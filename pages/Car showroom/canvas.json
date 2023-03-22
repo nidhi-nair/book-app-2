@@ -3257,7 +3257,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Car showroom_select_salesperson",
               "name": "select_salesperson",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3265,7 +3264,6 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Car showroom_select_showroom_db",
               "name": "select_showroom_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3277,7 +3275,6 @@
           ],
           [
             {
-              "id": "Car showroom_select_car_db",
               "name": "select_car_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

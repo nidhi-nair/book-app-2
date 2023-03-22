@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 76,
+          "version": 77,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -2243,7 +2243,7 @@
                   "widgetName": "Canvas21",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 730,
+                  "bottomRow": 720,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -3253,7 +3253,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Car servicing_select_supervisor_db",
               "name": "select_supervisor_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3263,7 +3262,6 @@
           ],
           [
             {
-              "id": "Car servicing_select_repair_db",
               "name": "select_repair_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

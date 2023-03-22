@@ -1540,7 +1540,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Test_SelectQuery",
               "name": "SelectQuery",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

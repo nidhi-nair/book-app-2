@@ -779,7 +779,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Home_select_discount",
               "name": "select_discount",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

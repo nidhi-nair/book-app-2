@@ -26,7 +26,7 @@
         "allowsAnonymousAccess": "false",
         "archived": "false",
         "childTableId": "null",
-        "command": "GET_PUBLISHED_TABLES",
+        "command": "CREATE_OBJECT",
         "copyRows": "false",
         "dynamicMetaTags": "{}",
         "enableChildTablePages": "false",
@@ -47,6 +47,7 @@
         "path": "null",
         "precedence": "0",
         "primaryTeamId": "null",
+        "properties": "{{ JSON.stringify(Query1.data) }}",
         "redirectStyle": "301",
         "roleId": "null",
         "secondaryTeamIds": "[]",
@@ -55,11 +56,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.properties"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      " JSON.stringify(Query1.data) "
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

@@ -20,8 +20,9 @@
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "formData": {
-        "command": "LIST_RECORDS",
-        "pageSize": "100"
+        "command": "UPDATE_RECORDS",
+        "pageSize": "100",
+        "records": "[{ \"fields\": { \"name\": \"Test\" }}]"
       }
     },
     "executeOnLoad": false,

@@ -21,9 +21,11 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "body": {
-          "data": ""
+          "data": "{{ (usersTable.pageNo - 1) * usersTable.pageSize }}"
         },
-        "command": "",
+        "command": {
+          "data": "CREATE_DOCUMENT"
+        },
         "deleteKeyPath": {
           "data": ""
         },
@@ -59,11 +61,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.body.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      " (usersTable.pageNo - 1) * usersTable.pageSize "
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

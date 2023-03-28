@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "PutItem",
+      "path": "CreateTable",
       "encodeParamsToggle": true,
       "body": "{{MainContainer}}",
       "selfReferencingDataPaths": []

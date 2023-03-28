@@ -20,7 +20,9 @@
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "formData": {
-        "command": "",
+        "command": {
+          "data": "INSERT_ONE"
+        },
         "entityType": {
           "data": "ROWS"
         },
@@ -39,6 +41,9 @@
         "range": {
           "data": ""
         },
+        "rowObjects": {
+          "data": "{{\n  {\n    \"name\": NewUserForm.formData.name,\n    \"date_of_birth\": NewUserForm.formData.date_of_birth,\n    \"employee_id\": NewUserForm.formData.employee_id\n  }\n}}"
+        },
         "smartSubstitution": {
           "data": true
         },
@@ -53,11 +58,17 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "formData.rowObjects.data"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "\n  {\n    \"name\": NewUserForm.formData.name,\n    \"date_of_birth\": NewUserForm.formData.date_of_birth,\n    \"employee_id\": NewUserForm.formData.employee_id\n  }\n"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

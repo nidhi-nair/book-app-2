@@ -24,7 +24,7 @@
           "data": "{{ (usersTable.pageNo - 1) * usersTable.pageSize }}"
         },
         "command": {
-          "data": "CREATE_DOCUMENT"
+          "data": "FETCH_MANY"
         },
         "deleteKeyPath": {
           "data": ""

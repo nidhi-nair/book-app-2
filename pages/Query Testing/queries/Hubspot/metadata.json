@@ -26,7 +26,7 @@
         "allowsAnonymousAccess": "false",
         "archived": "false",
         "childTableId": "null",
-        "command": "CREATE_OBJECT",
+        "command": "UPDATE_EXISTING_ROW",
         "copyRows": "false",
         "dynamicMetaTags": "{}",
         "enableChildTablePages": "false",
@@ -52,13 +52,17 @@
         "roleId": "null",
         "secondaryTeamIds": "[]",
         "sendWelcomeEmail": "false",
-        "useForPages": "false"
+        "useForPages": "false",
+        "values": "{{ JSON.stringify(Query1.data) }}"
       }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "formData.properties"
+      },
+      {
+        "key": "formData.values"
       }
     ],
     "isValid": true,

@@ -26,9 +26,7 @@
         "bucket": {
           "data": "random"
         },
-        "command": {
-          "data": "DELETE_MULTIPLE_FILES"
-        },
+        "command": "SEND",
         "create": {
           "dataType": {
             "data": "YES"

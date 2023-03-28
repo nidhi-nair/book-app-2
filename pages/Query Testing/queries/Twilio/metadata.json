@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "PageSize": "2",
-        "command": "CREATE_MESSAGE"
+        "command": "CANCEL_MESSAGE"
       }
     },
     "executeOnLoad": false,

@@ -27,7 +27,7 @@
           "data": "random"
         },
         "command": {
-          "data": "UPLOAD_MULTIPLE_FILES_FROM_BODY"
+          "data": "DELETE_MULTIPLE_FILES"
         },
         "create": {
           "dataType": {
@@ -76,7 +76,7 @@
           }
         },
         "path": {
-          "data": ""
+          "data": "['akhil']"
         },
         "read": {
           "dataType": {

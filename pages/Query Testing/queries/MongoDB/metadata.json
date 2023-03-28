@@ -32,7 +32,7 @@
           "data": ""
         },
         "command": {
-          "data": "INSERT"
+          "data": "FIND"
         },
         "count": {
           "query": {
@@ -60,7 +60,7 @@
             "data": ""
           },
           "query": {
-            "data": ""
+            "data": "{rating: {gte: 9}}"
           },
           "sort": {
             "data": ""
@@ -74,12 +74,12 @@
         },
         "insert": {
           "documents": {
-            "data": "[{{ JSON.stringify(Query1.data) }}]"
+            "data": ""
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"\",\n  \"documents\": [{{ JSON.stringify(Query1.data) }}]\n}\n",
+            "data": "{\n  \"find\": \"\",\n  \"filter\": {rating: {gte: 9}},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -100,17 +100,11 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "formData.insert.documents.data"
-      }
-    ],
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      " JSON.stringify(Query1.data) "
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

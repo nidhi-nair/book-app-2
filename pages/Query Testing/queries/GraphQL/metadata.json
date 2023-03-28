@@ -23,24 +23,11 @@
         {
           "key": "content-type",
           "value": "application/json"
-        },
-        {
-          "key": "",
-          "value": ""
         }
       ],
       "encodeParamsToggle": true,
-      "queryParameters": [
-        {
-          "key": "",
-          "value": ""
-        },
-        {
-          "key": "",
-          "value": ""
-        }
-      ],
-      "body": "",
+      "queryParameters": [],
+      "body": "{{ JSON.stringify(Query1.data) }}",
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -59,10 +46,17 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      " JSON.stringify(Query1.data) "
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],

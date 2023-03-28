@@ -1,0 +1,1 @@
+{{ JSON.stringify(Query1.data) }}

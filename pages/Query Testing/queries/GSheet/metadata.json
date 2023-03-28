@@ -21,7 +21,7 @@
       "selfReferencingDataPaths": [],
       "formData": {
         "command": {
-          "data": "INSERT_MANY"
+          "data": "UPDATE_MANY"
         },
         "entityType": {
           "data": "ROWS"

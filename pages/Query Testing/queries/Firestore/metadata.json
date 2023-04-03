@@ -23,9 +23,7 @@
         "body": {
           "data": "{{ (usersTable.pageNo - 1) * usersTable.pageSize }}"
         },
-        "command": {
-          "data": "FETCH_MANY"
-        },
+        "command": "",
         "deleteKeyPath": {
           "data": ""
         },

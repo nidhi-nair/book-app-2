@@ -1,0 +1,6 @@
+{
+  "find": "",
+  "filter": {rating: {gte: 9}},
+  "limit": 10,
+  "batchSize": 10
+}

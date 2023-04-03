@@ -18,6 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
+      "body": "{\n  \"find\": \"\",\n  \"filter\": {rating: {gte: 9}},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
       "selfReferencingDataPaths": [],
       "formData": {
         "aggregate": {
@@ -28,11 +29,14 @@
             "data": ""
           }
         },
+        "body": {
+          "data": "{\n  \"aggregate\": \"\",\n  \"pipeline\": [],\n  \"cursor\": {}\n}\n"
+        },
         "collection": {
           "data": ""
         },
         "command": {
-          "data": "FIND"
+          "data": "AGGREGATE"
         },
         "count": {
           "query": {
@@ -79,7 +83,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"\",\n  \"filter\": {rating: {gte: 9}},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n",
+            "data": "{\n  \"aggregate\": \"\",\n  \"pipeline\": [],\n  \"cursor\": {}\n}\n",
             "status": "SUCCESS"
           }
         },

@@ -17,7 +17,6 @@
     "actionConfiguration": {
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "",
       "selfReferencingDataPaths": [],
       "formData": {
         "command": "SEND"

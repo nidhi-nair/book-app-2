@@ -19,12 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "",
-      "selfReferencingDataPaths": [],
-      "formData": {
-        "command": "UPDATE_RECORDS",
-        "pageSize": "100",
-        "records": "[{ \"fields\": { \"name\": \"Test\" }}]"
-      }
+      "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [],

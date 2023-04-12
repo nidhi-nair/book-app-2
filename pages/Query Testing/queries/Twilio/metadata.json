@@ -19,11 +19,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "body": "",
-      "selfReferencingDataPaths": [],
-      "formData": {
-        "PageSize": "2",
-        "command": "CANCEL_MESSAGE"
-      }
+      "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [],

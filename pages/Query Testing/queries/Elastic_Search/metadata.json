@@ -20,13 +20,16 @@
       "path": "path",
       "encodeParamsToggle": true,
       "body": "body",
-      "httpMethod": "DELETE",
+      "httpMethod": "GET",
       "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [],
-    "isValid": true,
-    "invalids": [],
+    "isValid": false,
+    "invalids": [
+      "Unable to find datasource 641b2d14a8db493ee062adf5",
+      "Unable to find plugin 63b5996d336c9a2b0dcf583d"
+    ],
     "messages": [],
     "jsonPathKeys": [],
     "userSetOnLoad": false,

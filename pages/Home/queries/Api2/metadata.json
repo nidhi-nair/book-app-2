@@ -6,6 +6,7 @@
     "datasource": {
       "name": "OpenAI",
       "pluginId": "restapi-plugin",
+      "datasourceStorages": {},
       "invalids": [
         "No datasource configuration found. Please configure it and try again."
       ],

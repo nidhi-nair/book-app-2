@@ -24,7 +24,8 @@
         "send": {
           "from": "appsmithtemp@gmail.com",
           "to": "kocharrahul8@gmail.com,{{Utils.get()}}",
-          "subject": "Communication Sent Via Appsmith"
+          "subject": "Communication Sent Via Appsmith",
+          "bodyType": "text/html"
         }
       }
     },

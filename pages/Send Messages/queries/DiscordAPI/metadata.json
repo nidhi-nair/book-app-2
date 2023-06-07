@@ -7,6 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "{{List1.selectedItem.Discord_Webhook}}"
       },
       "invalids": [],

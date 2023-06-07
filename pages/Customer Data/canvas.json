@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 850,
+          "bottomRow": 840,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 53,
+          "version": 79,
           "minHeight": 860,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -27,10 +27,15 @@
           "leftColumn": 0,
           "children": [
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container1Copy",
               "borderColor": "transparent",
               "isCanvas": true,
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 0,
@@ -45,29 +50,27 @@
               "dynamicBindingPathList": [],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas1Copy",
-                  "rightColumn": 433.5,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "em3azzt89s",
-                  "containerStyle": "none",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 140,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "9vos6009k6",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text1Copy",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 4,
@@ -78,26 +81,32 @@
                       "animateLoading": true,
                       "parentColumnSpace": 16.62109375,
                       "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
-                      "shouldTruncate": false,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Customer Communications portal",
                       "key": "czyq0gtp0e",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 36,
                       "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
                       "widgetId": "sbv6c3gpgj",
                       "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#FFFFFF",
-                      "shouldScroll": false,
                       "version": 1,
                       "parentId": "em3azzt89s",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "fontSize": "HEADING1"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Image1Copy",
                       "displayName": "Image",
                       "iconSVG": "/static/media/icon.52d8fb96.svg",
@@ -114,6 +123,7 @@
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "vjoahs3y00",
+                      "labelTextSize": "0.875rem",
                       "image": "https://i.ibb.co/vm6BkcG/folder-search.png",
                       "rightColumn": 64,
                       "objectFit": "contain",
@@ -125,10 +135,11 @@
                       "isLoading": false,
                       "maxZoomLevel": 1,
                       "enableDownload": false,
+                      "borderRadius": "0px",
                       "enableRotation": false
                     },
                     {
-                      "boxShadow": "NONE",
+                      "boxShadow": "none",
                       "widgetName": "IconButton1",
                       "onClick": "{{navigateTo('Send Messages', {})}}",
                       "buttonColor": "#64508C",
@@ -150,6 +161,7 @@
                       "dynamicBindingPathList": [],
                       "isDisabled": false,
                       "key": "1781ytlhu2",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 3,
                       "iconName": "arrow-left",
                       "widgetId": "b9dzr2jwko",
@@ -158,17 +170,30 @@
                       "parentId": "em3azzt89s",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "ROUNDED",
+                      "borderRadius": "0.375rem",
                       "buttonVariant": "PRIMARY"
                     }
                   ],
-                  "key": "ffadum178l"
+                  "key": "ffadum178l",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "em3azzt89s",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "9vos6009k6",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "6bzu8mpizb",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#64508C",
               "rightColumn": 56,
+              "dynamicHeight": "FIXED",
               "widgetId": "9vos6009k6",
               "containerStyle": "card",
               "isVisible": true,
@@ -176,37 +201,37 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "15"
+              "borderRadius": "15px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
-              "boxShadow": "NONE",
-              "backgroundColor": "#FFFFFF",
+              "boxShadow": "none",
               "widgetName": "Container1",
-              "rightColumn": 42,
-              "widgetId": "mvubsemxfo",
-              "containerStyle": "card",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "topRow": 14,
               "bottomRow": 84,
               "parentRowSpace": 10,
-              "isVisible": "true",
               "type": "CONTAINER_WIDGET",
-              "version": 1,
-              "parentId": "0",
-              "isLoading": false,
               "parentColumnSpace": 19.75,
               "dynamicTriggerPathList": [],
               "leftColumn": 12,
               "dynamicBindingPathList": [],
-              "borderRadius": "15",
               "children": [
                 {
+                  "labelTextSize": "0.875rem",
+                  "boxShadow": "none",
                   "widgetName": "Canvas1",
                   "rightColumn": 632,
                   "detachFromLayout": true,
                   "widgetId": "59rw5mx0bq",
                   "containerStyle": "none",
                   "topRow": 0,
-                  "bottomRow": 860,
+                  "bottomRow": 700,
                   "parentRowSpace": 1,
                   "isVisible": "true",
                   "canExtend": false,
@@ -219,8 +244,10 @@
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
+                  "borderRadius": "0px",
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "data_table",
                       "columnOrder": [
                         "_id",
@@ -276,6 +303,9 @@
                         },
                         {
                           "key": "primaryColumns.CustomerName.computedValue"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "leftColumn": 1,
@@ -284,7 +314,7 @@
                           "isCellVisible": true,
                           "isDerived": false,
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow._id))}}",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "index": 1,
                           "isVisible": false,
                           "label": "_id",
@@ -295,7 +325,9 @@
                           "enableSort": true,
                           "id": "_id",
                           "verticalAlignment": "CENTER",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "borderRadius": "0px",
+                          "boxShadow": "none"
                         },
                         "UsersDoNotDisturb": {
                           "index": 0,
@@ -304,7 +336,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": false,
@@ -313,7 +345,9 @@
                           "isDerived": false,
                           "label": "UsersDoNotDisturb",
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.UsersDoNotDisturb))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "borderRadius": "0px",
+                          "boxShadow": "none"
                         },
                         "CustomerEmailID": {
                           "index": 1,
@@ -322,7 +356,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": true,
@@ -331,14 +365,16 @@
                           "isDerived": false,
                           "label": "CustomerEmailID",
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.CustomerEmailID))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "borderRadius": "0px",
+                          "boxShadow": "none"
                         },
                         "customColumn1": {
                           "isCellVisible": true,
                           "isDerived": true,
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.customColumn1))}}",
                           "onClick": "{{showModal('Delete_Modal')}}",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "buttonColor": "#F22B2B",
                           "index": 7,
                           "isVisible": true,
@@ -354,9 +390,10 @@
                           "buttonLabelColor": "#FFFFFF",
                           "verticalAlignment": "CENTER",
                           "cellBackground": "",
-                          "borderRadius": "ROUNDED",
+                          "borderRadius": "0.375rem",
                           "iconName": "trash",
-                          "buttonVariant": "SECONDARY"
+                          "buttonVariant": "SECONDARY",
+                          "boxShadow": "none"
                         },
                         "CustomerID": {
                           "index": 3,
@@ -365,7 +402,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": true,
@@ -374,7 +411,9 @@
                           "isDerived": false,
                           "label": "CustomerID",
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.CustomerID))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "borderRadius": "0px",
+                          "boxShadow": "none"
                         },
                         "CustomerName": {
                           "index": 4,
@@ -383,7 +422,7 @@
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "enableFilter": true,
                           "enableSort": true,
                           "isVisible": true,
@@ -392,7 +431,9 @@
                           "isDerived": false,
                           "label": "CustomerName",
                           "computedValue": "{{data_table.sanitizedTableData.map((currentRow) => ( currentRow.CustomerName))}}",
-                          "cellBackground": ""
+                          "cellBackground": "",
+                          "borderRadius": "0px",
+                          "boxShadow": "none"
                         }
                       },
                       "delimiter": ",",
@@ -401,7 +442,7 @@
                           "isDerived": true,
                           "computedValue": "",
                           "onClick": "{{DeleteQuery.run()}}",
-                          "textSize": "PARAGRAPH",
+                          "textSize": "0.875rem",
                           "buttonStyle": "#DD4B34",
                           "index": 7,
                           "isVisible": true,
@@ -417,12 +458,16 @@
                           "verticalAlignment": "CENTER",
                           "cellBackground": "",
                           "iconName": "trash",
-                          "buttonColor": "#F22B2B"
+                          "buttonColor": "#F22B2B",
+                          "borderRadius": "0.375rem",
+                          "boxShadow": "none"
                         }
                       },
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 63,
-                      "textSize": "PARAGRAPH",
+                      "textSize": "0.875rem",
                       "widgetId": "jabdu9f16g",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisibleFilters": true,
                       "tableData": "{{FindQuery.data}}",
                       "isVisible": "true",
@@ -436,6 +481,24 @@
                       "onSearchTextChanged": "{{FindQuery.run()}}",
                       "horizontalAlignment": "LEFT",
                       "isVisibleSearch": true,
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        }
+                      },
+                      "borderRadius": "0px",
                       "isVisiblePagination": true,
                       "cellBackground": "",
                       "verticalAlignment": "CENTER",
@@ -450,25 +513,18 @@
                       }
                     },
                     {
-                      "isRequired": false,
+                      "boxShadow": "none",
                       "widgetName": "key_select",
                       "isFilterable": true,
-                      "rightColumn": 39,
                       "dynamicPropertyPathList": [
                         {
                           "key": "isVisible"
                         }
                       ],
-                      "widgetId": "asmgosgxjm",
                       "topRow": 8,
                       "bottomRow": 12,
                       "parentRowSpace": 10,
-                      "isVisible": "{{FindQuery.data.length > 0}}",
-                      "label": "",
                       "type": "DROP_DOWN_WIDGET",
-                      "version": 1,
-                      "parentId": "59rw5mx0bq",
-                      "isLoading": false,
                       "defaultOptionValue": "CustomerID",
                       "parentColumnSpace": 18.8828125,
                       "dynamicTriggerPathList": [
@@ -480,54 +536,69 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "isVisible"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "options": "[\n{\n\t\"label\": \"UsersDoNotDisturb\",\n\t\"value\": \"UsersDoNotDisturb\"\n}, \n{\n\t\"label\": \"CustomerEmailID\",\n\t\"value\": \"CustomerEmailID\"\n}, \n{\n\t\"label\": \"CustomerName\",\n\t\"value\": \"CustomerName\"\n}, \n{\n\t\"label\": \"CustomerID\",\n\t\"value\": \"CustomerID\"\n}]",
-                      "onOptionChange": "{{FindQuery.run()}}",
-                      "isDisabled": false
+                      "isDisabled": false,
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "rightColumn": 39,
+                      "widgetId": "asmgosgxjm",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": "{{FindQuery.data.length > 0}}",
+                      "label": "",
+                      "version": 1,
+                      "parentId": "59rw5mx0bq",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "onOptionChange": "{{FindQuery.run()}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text15",
-                      "rightColumn": 12,
-                      "textAlign": "LEFT",
-                      "widgetId": "l8pgl90klz",
                       "topRow": 8,
                       "bottomRow": 12,
                       "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 19.75,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "text": "Order By :",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 12,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "l8pgl90klz",
                       "isVisible": "true",
                       "fontStyle": "BOLD",
-                      "type": "TEXT_WIDGET",
                       "textColor": "#231F20",
                       "version": 1,
                       "parentId": "59rw5mx0bq",
                       "isLoading": false,
-                      "parentColumnSpace": 19.75,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [],
-                      "fontSize": "PARAGRAPH",
-                      "text": "Order By :"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
-                      "isRequired": false,
+                      "boxShadow": "none",
                       "widgetName": "order_select",
                       "isFilterable": true,
-                      "rightColumn": 63,
                       "dynamicPropertyPathList": [
                         {
                           "key": "isVisible"
                         }
                       ],
-                      "widgetId": "10v8a19m25",
                       "topRow": 8,
                       "bottomRow": 12,
                       "parentRowSpace": 10,
-                      "isVisible": "{{FindQuery.data.length > 0}}",
-                      "label": "",
                       "type": "DROP_DOWN_WIDGET",
-                      "version": 1,
-                      "parentId": "59rw5mx0bq",
-                      "isLoading": false,
                       "defaultOptionValue": "1",
                       "parentColumnSpace": 19.75,
                       "dynamicTriggerPathList": [
@@ -539,35 +610,63 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "isVisible"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "options": "[\n  {\n    \"label\": \"ASC\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"DESC\",\n    \"value\": \"-1\"\n  }\n]",
-                      "onOptionChange": "{{FindQuery.run()}}",
-                      "isDisabled": false
+                      "isDisabled": false,
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "rightColumn": 63,
+                      "widgetId": "10v8a19m25",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": "{{FindQuery.data.length > 0}}",
+                      "label": "",
+                      "version": 1,
+                      "parentId": "59rw5mx0bq",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "onOptionChange": "{{FindQuery.run()}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text16",
-                      "rightColumn": 42,
-                      "textAlign": "LEFT",
-                      "widgetId": "urzv99hdc8",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "topRow": 1,
                       "bottomRow": 6,
                       "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 11.78515625,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "text": "Customers Data",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 42,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "urzv99hdc8",
                       "isVisible": "true",
                       "fontStyle": "BOLD",
-                      "type": "TEXT_WIDGET",
                       "textColor": "#231F20",
                       "version": 1,
                       "parentId": "59rw5mx0bq",
                       "isLoading": false,
-                      "parentColumnSpace": 11.78515625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [],
-                      "fontSize": "HEADING1",
-                      "text": "Customers Data"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button4",
                       "onClick": "{{showModal('Insert_Modal')}}",
                       "buttonColor": "#2E3D49",
@@ -590,6 +689,7 @@
                       "text": "New Customer",
                       "isDisabled": false,
                       "key": "1azlbx8emc",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 63,
                       "isDefaultClickDisabled": true,
                       "iconName": "plus",
@@ -600,92 +700,98 @@
                       "parentId": "59rw5mx0bq",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "borderRadius": "ROUNDED",
+                      "borderRadius": "0.375rem",
                       "buttonVariant": "PRIMARY",
                       "iconAlign": "left",
                       "placement": "CENTER"
                     }
                   ]
                 }
-              ]
+              ],
+              "labelTextSize": "0.875rem",
+              "backgroundColor": "#FFFFFF",
+              "rightColumn": 42,
+              "dynamicHeight": "FIXED",
+              "widgetId": "mvubsemxfo",
+              "containerStyle": "card",
+              "isVisible": "true",
+              "version": 1,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "15px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             },
             {
+              "boxShadow": "none",
               "widgetName": "Delete_Modal",
-              "rightColumn": 45,
-              "detachFromLayout": true,
-              "widgetId": "i3whp03wf0",
               "topRow": 13,
               "bottomRow": 37,
               "parentRowSpace": 10,
-              "canOutsideClickClose": true,
               "type": "MODAL_WIDGET",
-              "canEscapeKeyClose": true,
-              "version": 2,
-              "parentId": "0",
               "shouldScrollContents": false,
-              "isLoading": false,
               "parentColumnSpace": 18.8828125,
               "dynamicTriggerPathList": [],
               "leftColumn": 21,
               "dynamicBindingPathList": [],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas3",
-                  "rightColumn": 453.1875,
-                  "detachFromLayout": true,
-                  "widgetId": "zi8fjakv8o",
                   "topRow": 0,
                   "bottomRow": 190,
                   "parentRowSpace": 1,
-                  "isVisible": "true",
                   "canExtend": true,
                   "type": "CANVAS_WIDGET",
-                  "version": 1,
-                  "parentId": "i3whp03wf0",
                   "shouldScrollContents": false,
                   "minHeight": 192,
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Alert_text",
-                      "rightColumn": 42,
-                      "textAlign": "LEFT",
-                      "widgetId": "35yoxo4oec",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "topRow": 2,
                       "bottomRow": 6,
+                      "type": "TEXT_WIDGET",
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "text": "Delete Row",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 42,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "35yoxo4oec",
                       "isVisible": "true",
                       "fontStyle": "BOLD",
-                      "type": "TEXT_WIDGET",
                       "textColor": "#231F20",
                       "version": 1,
                       "parentId": "zi8fjakv8o",
                       "isLoading": false,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
-                      "dynamicBindingPathList": [],
-                      "fontSize": "HEADING1",
-                      "text": "Delete Row"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Button1",
-                      "rightColumn": 38,
                       "onClick": "{{closeModal('Delete_Modal')}}",
-                      "isDefaultClickDisabled": true,
                       "dynamicPropertyPathList": [],
                       "buttonColor": "#03B365",
-                      "widgetId": "lryg8kw537",
                       "topRow": 12,
                       "bottomRow": 17,
-                      "isVisible": "true",
                       "type": "BUTTON_WIDGET",
-                      "version": 1,
-                      "recaptchaType": "V3",
-                      "parentId": "zi8fjakv8o",
-                      "isLoading": false,
                       "dynamicTriggerPathList": [
                         {
                           "key": "onClick"
@@ -693,31 +799,33 @@
                       ],
                       "leftColumn": 16,
                       "dynamicBindingPathList": [],
-                      "borderRadius": "ROUNDED",
-                      "buttonVariant": "PRIMARY",
                       "text": "Cancel",
-                      "isDisabled": false
+                      "isDisabled": false,
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 38,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "lryg8kw537",
+                      "isVisible": "true",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "zi8fjakv8o",
+                      "isLoading": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Delete_Button",
-                      "rightColumn": 63,
                       "onClick": "{{DeleteQuery.run(() => FindQuery.run(() => closeModal('Delete_Modal')), () => {})}}",
-                      "isDefaultClickDisabled": true,
                       "dynamicPropertyPathList": [
                         {
                           "key": "onClick"
                         }
                       ],
                       "buttonColor": "#F22B2B",
-                      "widgetId": "qq02lh7ust",
                       "topRow": 12,
                       "bottomRow": 17,
-                      "isVisible": "true",
                       "type": "BUTTON_WIDGET",
-                      "version": 1,
-                      "recaptchaType": "V3",
-                      "parentId": "zi8fjakv8o",
-                      "isLoading": false,
                       "dynamicTriggerPathList": [
                         {
                           "key": "onClick"
@@ -725,103 +833,142 @@
                       ],
                       "leftColumn": 40,
                       "dynamicBindingPathList": [],
-                      "borderRadius": "ROUNDED",
-                      "buttonVariant": "PRIMARY",
                       "text": "Confirm",
-                      "isDisabled": false
+                      "isDisabled": false,
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 63,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "qq02lh7ust",
+                      "isVisible": "true",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "zi8fjakv8o",
+                      "isLoading": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text12",
-                      "rightColumn": 50,
-                      "textAlign": "LEFT",
-                      "widgetId": "48uac29g6e",
                       "topRow": 7,
                       "bottomRow": 11,
                       "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 6.875,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "text": "Are you sure you want to delete this item?",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 50,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "48uac29g6e",
                       "isVisible": "true",
                       "fontStyle": "",
-                      "type": "TEXT_WIDGET",
                       "textColor": "#231F20",
                       "version": 1,
                       "parentId": "zi8fjakv8o",
                       "isLoading": false,
-                      "parentColumnSpace": 6.875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
-                      "dynamicBindingPathList": [],
-                      "fontSize": "PARAGRAPH",
-                      "text": "Are you sure you want to delete this item?"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     }
                   ],
-                  "isDisabled": false
+                  "isDisabled": false,
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 453.1875,
+                  "detachFromLayout": true,
+                  "widgetId": "zi8fjakv8o",
+                  "isVisible": "true",
+                  "version": 1,
+                  "parentId": "i3whp03wf0",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
-              "width": 456,
-              "height": 192
-            },
-            {
-              "widgetName": "Insert_Modal",
-              "rightColumn": 41,
+              "height": 192,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 45,
               "detachFromLayout": true,
-              "widgetId": "vmorzie6eq",
-              "topRow": 16,
-              "bottomRow": 40,
-              "parentRowSpace": 10,
+              "dynamicHeight": "FIXED",
+              "widgetId": "i3whp03wf0",
               "canOutsideClickClose": true,
-              "type": "MODAL_WIDGET",
               "canEscapeKeyClose": true,
               "version": 2,
               "parentId": "0",
-              "shouldScrollContents": false,
               "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
+              "width": 456,
+              "minDynamicHeight": 4
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Insert_Modal",
+              "topRow": 16,
+              "bottomRow": 40,
+              "parentRowSpace": 10,
+              "type": "MODAL_WIDGET",
+              "shouldScrollContents": false,
               "parentColumnSpace": 18.8828125,
               "dynamicTriggerPathList": [],
               "leftColumn": 17,
               "dynamicBindingPathList": [],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas4",
-                  "rightColumn": 453.1875,
-                  "detachFromLayout": true,
-                  "widgetId": "9rhv3ioohq",
                   "topRow": 0,
-                  "bottomRow": 370,
+                  "bottomRow": 380,
                   "parentRowSpace": 1,
-                  "isVisible": "true",
                   "canExtend": true,
                   "type": "CANVAS_WIDGET",
-                  "version": 1,
-                  "parentId": "vmorzie6eq",
                   "shouldScrollContents": false,
                   "minHeight": 380,
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text13Copy",
-                      "rightColumn": 38,
-                      "textAlign": "LEFT",
-                      "widgetId": "18x7vdv3gs",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "topRow": 2,
                       "bottomRow": 6,
-                      "isVisible": "true",
-                      "fontStyle": "BOLD",
                       "type": "TEXT_WIDGET",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "shouldScroll": false,
-                      "parentId": "9rhv3ioohq",
-                      "isLoading": false,
                       "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
                       "leftColumn": 3,
                       "dynamicBindingPathList": [],
-                      "fontSize": "HEADING1",
-                      "text": "Insert Row"
+                      "text": "Insert Row",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 38,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "18x7vdv3gs",
+                      "isVisible": "true",
+                      "fontStyle": "BOLD",
+                      "textColor": "#231F20",
+                      "version": 1,
+                      "parentId": "9rhv3ioohq",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.5rem",
+                      "minDynamicHeight": 4
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "insert_col_input1",
                       "topRow": 8,
                       "bottomRow": 14,
@@ -834,6 +981,9 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "BOLD",
@@ -841,17 +991,21 @@
                       "placeholderText": "CustomerID",
                       "isDisabled": false,
                       "validation": "true",
+                      "labelTextSize": "0.875rem",
                       "isRequired": true,
                       "rightColumn": 41,
                       "widgetId": "h1wbbv7alb",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": "true",
                       "label": "CustomerID:",
                       "version": 1,
                       "parentId": "9rhv3ioohq",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "defaultText": "c{{Math.floor(Math.random()*10000)}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "insert_col_input2",
                       "topRow": 15,
                       "bottomRow": 21,
@@ -861,23 +1015,31 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 3,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "placeholderText": "Customer Email address",
                       "isDisabled": false,
                       "validation": "true",
+                      "labelTextSize": "0.875rem",
                       "isRequired": true,
                       "rightColumn": 62,
                       "widgetId": "6enalyprua",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": "true",
                       "label": "Customer Email ID:",
                       "version": 1,
                       "parentId": "9rhv3ioohq",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "defaultText": ""
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "insert_col_input3",
                       "topRow": 22,
                       "bottomRow": 28,
@@ -887,24 +1049,32 @@
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 3,
-                      "dynamicBindingPathList": [],
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        }
+                      ],
                       "labelStyle": "BOLD",
                       "inputType": "TEXT",
                       "placeholderText": "Customer Name",
                       "isDisabled": false,
                       "validation": "true",
+                      "labelTextSize": "0.875rem",
                       "isRequired": true,
                       "rightColumn": 62,
                       "widgetId": "e490gfts69",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": "true",
                       "label": "Customer Name:",
                       "version": 1,
                       "parentId": "9rhv3ioohq",
                       "isLoading": false,
+                      "borderRadius": "0px",
                       "defaultText": ""
                     },
                     {
                       "resetFormOnClick": true,
+                      "boxShadow": "none",
                       "widgetName": "insert_button",
                       "onClick": "{{InsertQuery.run(() => FindQuery.run(() => closeModal('Insert_Modal')))}}",
                       "dynamicPropertyPathList": [
@@ -925,6 +1095,7 @@
                       "dynamicBindingPathList": [],
                       "googleRecaptchaKey": "",
                       "text": "Submit",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 62,
                       "isDefaultClickDisabled": true,
                       "widgetId": "h8vxf3oh4s",
@@ -934,38 +1105,41 @@
                       "parentId": "9rhv3ioohq",
                       "isLoading": false,
                       "disabledWhenInvalid": true,
-                      "borderRadius": "ROUNDED",
+                      "borderRadius": "0.375rem",
                       "buttonVariant": "PRIMARY"
                     },
                     {
                       "resetFormOnClick": true,
+                      "boxShadow": "none",
                       "widgetName": "reset_button",
-                      "rightColumn": 38,
                       "onClick": "{{closeModal('Insert_Modal')}}",
-                      "isDefaultClickDisabled": true,
                       "buttonColor": "#2E3D49",
-                      "widgetId": "o23gs26wm5",
                       "topRow": 30,
                       "bottomRow": 35,
-                      "isVisible": "true",
                       "type": "FORM_BUTTON_WIDGET",
-                      "version": 1,
-                      "recaptchaType": "V3",
-                      "parentId": "9rhv3ioohq",
-                      "isLoading": false,
                       "dynamicTriggerPathList": [
                         {
                           "key": "onClick"
                         }
                       ],
-                      "disabledWhenInvalid": false,
                       "leftColumn": 16,
                       "dynamicBindingPathList": [],
-                      "borderRadius": "ROUNDED",
-                      "buttonVariant": "PRIMARY",
-                      "text": "Close"
+                      "text": "Close",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 38,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "o23gs26wm5",
+                      "isVisible": "true",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "9rhv3ioohq",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Switch2",
                       "displayName": "Switch",
                       "iconSVG": "/static/media/icon.a3115bc1.svg",
@@ -980,33 +1154,65 @@
                       "dynamicTriggerPathList": [],
                       "leftColumn": 43,
                       "dynamicBindingPathList": [],
+                      "labelPosition": "Right",
                       "isDisabled": false,
                       "key": "jbinm3lkeo",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 61,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "8dlz6tzk85",
+                      "accentColor": "#03B365",
                       "isVisible": true,
                       "label": "Do Not Disturb",
                       "defaultSwitchState": true,
                       "version": 1,
                       "parentId": "9rhv3ioohq",
                       "renderMode": "CANVAS",
-                      "isLoading": false
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     }
                   ],
-                  "isDisabled": false
+                  "isDisabled": false,
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 453.1875,
+                  "detachFromLayout": true,
+                  "widgetId": "9rhv3ioohq",
+                  "isVisible": "true",
+                  "version": 1,
+                  "parentId": "vmorzie6eq",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
+              "height": 380,
+              "labelTextSize": "0.875rem",
+              "rightColumn": 41,
+              "detachFromLayout": true,
+              "dynamicHeight": "FIXED",
+              "widgetId": "vmorzie6eq",
+              "canOutsideClickClose": true,
+              "canEscapeKeyClose": true,
+              "version": 2,
+              "parentId": "0",
+              "isLoading": false,
+              "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
               "width": 532,
-              "height": 380
+              "minDynamicHeight": 4
             },
             {
-              "boxShadow": "NONE",
+              "boxShadow": "none",
               "widgetName": "Container2",
               "borderColor": "transparent",
               "isCanvas": true,
               "dynamicPropertyPathList": [
                 {
                   "key": "isVisible"
+                },
+                {
+                  "key": "borderRadius"
                 }
               ],
               "displayName": "Container",
@@ -1028,63 +1234,61 @@
               ],
               "children": [
                 {
+                  "boxShadow": "none",
                   "widgetName": "Canvas5",
-                  "rightColumn": 433.5,
-                  "detachFromLayout": true,
                   "displayName": "Canvas",
-                  "widgetId": "52qrodu5iz",
-                  "containerStyle": "none",
                   "topRow": 0,
-                  "bottomRow": 410,
+                  "bottomRow": 430,
                   "parentRowSpace": 1,
-                  "isVisible": true,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
-                  "version": 1,
                   "hideCard": true,
-                  "parentId": "qe5zb4l34d",
                   "minHeight": 400,
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "children": [
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text9",
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "widgetId": "4hnz8ktmz5",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "fontSize"
+                        }
+                      ],
                       "topRow": 1,
                       "bottomRow": 7,
                       "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 8.8963623046875,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 2,
+                      "dynamicBindingPathList": [],
+                      "text": "Update Selected Row",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 64,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "4hnz8ktmz5",
                       "isVisible": "true",
                       "fontStyle": "BOLD",
-                      "type": "TEXT_WIDGET",
                       "textColor": "#231F20",
                       "version": 1,
                       "parentId": "52qrodu5iz",
                       "isLoading": false,
-                      "parentColumnSpace": 8.8963623046875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
-                      "dynamicBindingPathList": [],
-                      "fontSize": "HEADING2",
-                      "text": "Update Selected Row"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "1.125rem",
+                      "minDynamicHeight": 4
                     },
                     {
-                      "isRequired": true,
+                      "boxShadow": "none",
                       "widgetName": "update_col_1",
-                      "rightColumn": 62,
-                      "widgetId": "in8e51pg3y",
                       "topRow": 7,
                       "bottomRow": 13,
                       "parentRowSpace": 10,
-                      "isVisible": "true",
-                      "label": "CustomerID:",
                       "type": "INPUT_WIDGET",
-                      "version": 1,
-                      "parentId": "52qrodu5iz",
-                      "isLoading": false,
                       "parentColumnSpace": 8.8963623046875,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
@@ -1092,28 +1296,35 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "BOLD",
                       "inputType": "TEXT",
-                      "defaultText": "{{data_table.selectedRow.CustomerID}}",
                       "isDisabled": false,
-                      "validation": "true"
+                      "validation": "true",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "rightColumn": 62,
+                      "widgetId": "in8e51pg3y",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": "true",
+                      "label": "CustomerID:",
+                      "version": 1,
+                      "parentId": "52qrodu5iz",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "defaultText": "{{data_table.selectedRow.CustomerID}}"
                     },
                     {
-                      "isRequired": true,
+                      "boxShadow": "none",
                       "widgetName": "update_col_2",
-                      "rightColumn": 62,
-                      "widgetId": "mlhvfasf31",
                       "topRow": 14,
                       "bottomRow": 20,
                       "parentRowSpace": 10,
-                      "isVisible": "true",
-                      "label": "Customer Email ID:",
                       "type": "INPUT_WIDGET",
-                      "version": 1,
-                      "parentId": "52qrodu5iz",
-                      "isLoading": false,
                       "parentColumnSpace": 8.8963623046875,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
@@ -1121,28 +1332,35 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "BOLD",
                       "inputType": "TEXT",
-                      "defaultText": "{{data_table.selectedRow.CustomerEmailID}}",
                       "isDisabled": false,
-                      "validation": "true"
+                      "validation": "true",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "rightColumn": 62,
+                      "widgetId": "mlhvfasf31",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": "true",
+                      "label": "Customer Email ID:",
+                      "version": 1,
+                      "parentId": "52qrodu5iz",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "defaultText": "{{data_table.selectedRow.CustomerEmailID}}"
                     },
                     {
-                      "isRequired": true,
+                      "boxShadow": "none",
                       "widgetName": "update_col_3",
-                      "rightColumn": 62,
-                      "widgetId": "0lz9vhcnr0",
                       "topRow": 21,
                       "bottomRow": 27,
                       "parentRowSpace": 10,
-                      "isVisible": "true",
-                      "label": "Customer Name",
                       "type": "INPUT_WIDGET",
-                      "version": 1,
-                      "parentId": "52qrodu5iz",
-                      "isLoading": false,
                       "parentColumnSpace": 8.8963623046875,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
@@ -1150,37 +1368,60 @@
                       "dynamicBindingPathList": [
                         {
                           "key": "defaultText"
+                        },
+                        {
+                          "key": "accentColor"
                         }
                       ],
                       "labelStyle": "BOLD",
                       "inputType": "TEXT",
-                      "defaultText": "{{data_table.selectedRow.CustomerName}}",
                       "isDisabled": false,
-                      "validation": "true"
+                      "validation": "true",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": true,
+                      "rightColumn": 62,
+                      "widgetId": "0lz9vhcnr0",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": "true",
+                      "label": "Customer Name",
+                      "version": 1,
+                      "parentId": "52qrodu5iz",
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "defaultText": "{{data_table.selectedRow.CustomerName}}"
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Text20",
-                      "rightColumn": 41,
-                      "textAlign": "LEFT",
-                      "widgetId": "gqpwf0yng6",
                       "topRow": 28,
                       "bottomRow": 32,
                       "parentRowSpace": 10,
+                      "type": "TEXT_WIDGET",
+                      "parentColumnSpace": 7.15625,
+                      "dynamicTriggerPathList": [],
+                      "overflow": "NONE",
+                      "fontFamily": "System Default",
+                      "leftColumn": 1,
+                      "dynamicBindingPathList": [],
+                      "text": "UsersDoNotDisturb",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 41,
+                      "textAlign": "LEFT",
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "gqpwf0yng6",
                       "isVisible": "true",
                       "fontStyle": "BOLD",
-                      "type": "TEXT_WIDGET",
                       "textColor": "#231F20",
                       "version": 1,
                       "parentId": "52qrodu5iz",
                       "isLoading": false,
-                      "parentColumnSpace": 7.15625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [],
-                      "fontSize": "PARAGRAPH",
-                      "text": "UsersDoNotDisturb"
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "fontSize": "0.875rem",
+                      "minDynamicHeight": 4
                     },
                     {
+                      "boxShadow": "none",
                       "widgetName": "Switch1",
                       "dynamicPropertyPathList": [
                         {
@@ -1204,84 +1445,108 @@
                           "key": "defaultSwitchState"
                         }
                       ],
+                      "labelPosition": "Left",
                       "isDisabled": false,
                       "key": "lh31qw774h",
+                      "labelTextSize": "0.875rem",
                       "rightColumn": 61,
+                      "dynamicHeight": "FIXED",
                       "widgetId": "x6j938ot2g",
+                      "accentColor": "#03B365",
                       "isVisible": true,
                       "label": "",
                       "defaultSwitchState": "{{data_table.selectedRow.UsersDoNotDisturb==1}}",
                       "version": 1,
                       "parentId": "52qrodu5iz",
                       "renderMode": "CANVAS",
-                      "isLoading": false
+                      "isLoading": false,
+                      "borderRadius": "0px",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     },
                     {
                       "resetFormOnClick": false,
+                      "boxShadow": "none",
                       "widgetName": "update_button",
-                      "rightColumn": 62,
                       "onClick": "{{UpdateQuery.run(() => FindQuery.run(), () => showAlert('Error while updating resource!','error'))}}",
-                      "isDefaultClickDisabled": true,
                       "dynamicPropertyPathList": [],
                       "buttonColor": "#64508C",
-                      "widgetId": "4gnygu5jew",
                       "topRow": 34,
                       "bottomRow": 39,
-                      "isVisible": "true",
                       "type": "FORM_BUTTON_WIDGET",
-                      "version": 1,
-                      "recaptchaType": "V3",
-                      "parentId": "52qrodu5iz",
-                      "isLoading": false,
                       "dynamicTriggerPathList": [
                         {
                           "key": "onClick"
                         }
                       ],
-                      "disabledWhenInvalid": true,
                       "leftColumn": 33,
                       "dynamicBindingPathList": [],
-                      "borderRadius": "ROUNDED",
-                      "buttonVariant": "PRIMARY",
-                      "text": "Update"
+                      "text": "Update",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 62,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "4gnygu5jew",
+                      "isVisible": "true",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "52qrodu5iz",
+                      "isLoading": false,
+                      "disabledWhenInvalid": true,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY"
                     },
                     {
                       "resetFormOnClick": true,
+                      "boxShadow": "none",
                       "widgetName": "reset_update_button",
-                      "rightColumn": 32,
                       "onClick": "{{resetWidget(\"Container2\",true)}}",
-                      "isDefaultClickDisabled": true,
                       "dynamicPropertyPathList": [],
                       "buttonColor": "#2E3D49",
-                      "widgetId": "twwgpz5wfu",
                       "topRow": 34,
                       "bottomRow": 39,
-                      "isVisible": "true",
                       "type": "FORM_BUTTON_WIDGET",
-                      "version": 1,
-                      "recaptchaType": "V3",
-                      "parentId": "52qrodu5iz",
-                      "isLoading": false,
                       "dynamicTriggerPathList": [
                         {
                           "key": "onClick"
                         }
                       ],
-                      "disabledWhenInvalid": false,
                       "leftColumn": 1,
                       "dynamicBindingPathList": [],
-                      "borderRadius": "ROUNDED",
-                      "buttonVariant": "PRIMARY",
-                      "text": "Reset"
+                      "text": "Reset",
+                      "labelTextSize": "0.875rem",
+                      "rightColumn": 32,
+                      "isDefaultClickDisabled": true,
+                      "widgetId": "twwgpz5wfu",
+                      "isVisible": "true",
+                      "version": 1,
+                      "recaptchaType": "V3",
+                      "parentId": "52qrodu5iz",
+                      "isLoading": false,
+                      "disabledWhenInvalid": false,
+                      "borderRadius": "0.375rem",
+                      "buttonVariant": "PRIMARY"
                     }
                   ],
-                  "key": "ujn55l8yc3"
+                  "key": "ujn55l8yc3",
+                  "labelTextSize": "0.875rem",
+                  "rightColumn": 433.5,
+                  "detachFromLayout": true,
+                  "widgetId": "52qrodu5iz",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "qe5zb4l34d",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "0px"
                 }
               ],
               "borderWidth": "0",
               "key": "rvfae8ssjn",
+              "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
               "rightColumn": 56,
+              "dynamicHeight": "FIXED",
               "widgetId": "qe5zb4l34d",
               "containerStyle": "card",
               "isVisible": "{{!!data_table.selectedRow._id}}",
@@ -1289,7 +1554,9 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "15"
+              "borderRadius": "15px",
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
@@ -1301,16 +1568,17 @@
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
-                "key_select.selectedOptionValue",
+                "(data_table.pageNo - 1) * data_table.pageSize",
                 "data_table.pageSize",
                 "data_table.searchText||\"\"",
-                "(data_table.pageNo - 1) * data_table.pageSize",
+                "key_select.selectedOptionValue",
                 "order_select.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
+        "layoutOnLoadActionErrors": [],
         "mongoEscapedWidgetNames": [
           "data_table"
         ],

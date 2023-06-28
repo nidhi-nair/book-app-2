@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 80,
           "minHeight": 640,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -45,7 +45,7 @@
               "animateLoading": true,
               "parentColumnSpace": 14.0625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 32,
+              "leftColumn": 6,
               "dynamicBindingPathList": [],
               "children": [
                 {
@@ -2042,174 +2042,6 @@
             },
             {
               "boxShadow": "none",
-              "widgetName": "Container2",
-              "borderColor": "transparent",
-              "isCanvas": true,
-              "dynamicPropertyPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "displayName": "Container",
-              "iconSVG": "/static/media/icon.1977dca3.svg",
-              "topRow": 28,
-              "bottomRow": 69,
-              "parentRowSpace": 10,
-              "type": "CONTAINER_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 14.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 6,
-              "dynamicBindingPathList": [],
-              "children": [
-                {
-                  "boxShadow": "none",
-                  "widgetName": "Canvas24",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 410,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 400,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "children": [
-                    {
-                      "widgetName": "Text4Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 0,
-                      "bottomRow": 4,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 7.736328125,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "#FFC13D",
-                      "text": "Revenue Report",
-                      "key": "sodray79c2",
-                      "isDeprecated": false,
-                      "rightColumn": 35,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "1p879b1hvp",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "sxp58e0rzd",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "setAdaptiveYMin": true,
-                      "boxShadow": "none",
-                      "widgetName": "Chart3",
-                      "allowScroll": false,
-                      "displayName": "Chart",
-                      "iconSVG": "/static/media/icon.6adbe31e.svg",
-                      "topRow": 4,
-                      "bottomRow": 39,
-                      "parentRowSpace": 10,
-                      "type": "CHART_WIDGET",
-                      "hideCard": false,
-                      "chartData": {
-                        "pxx4mq5r4p": {
-                          "seriesName": "",
-                          "data": "[\n  {\"x\": \"Showroom\",\n    \"y\": {{JSObject1.getCarSalesRevenue()}}\n  },\n  {\n    \"x\": \"Repairs\",\n    \"y\": {{JSObject1.getCarRepairRevenue()}}\n  }\n]"
-                        }
-                      },
-                      "animateLoading": true,
-                      "parentColumnSpace": 17.9375,
-                      "dynamicTriggerPathList": [],
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "leftColumn": 0,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "chartData.pxx4mq5r4p.data"
-                        },
-                        {
-                          "key": "customFusionChartConfig"
-                        },
-                        {
-                          "key": "accentColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        }
-                      ],
-                      "customFusionChartConfig": "{{ChartManager.getPieChart()}}",
-                      "key": "aowkz816sh",
-                      "labelTextSize": "0.875rem",
-                      "rightColumn": 64,
-                      "widgetId": "xxl4jynyaq",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "sxp58e0rzd",
-                      "labelOrientation": "auto",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "yAxisName": "Revenue(Rs.)",
-                      "chartName": "",
-                      "borderRadius": "0px",
-                      "xAxisName": "",
-                      "chartType": "CUSTOM_FUSION_CHART"
-                    }
-                  ],
-                  "key": "pp95jmxgpm",
-                  "labelTextSize": "0.875rem",
-                  "rightColumn": 337.5,
-                  "detachFromLayout": true,
-                  "widgetId": "sxp58e0rzd",
-                  "containerStyle": "none",
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "aqka8ztr6e",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "borderRadius": "0px"
-                }
-              ],
-              "borderWidth": "0",
-              "key": "42vyvcsom4",
-              "labelTextSize": "0.875rem",
-              "backgroundColor": "#FFFFFF",
-              "rightColumn": 32,
-              "dynamicHeight": "FIXED",
-              "widgetId": "aqka8ztr6e",
-              "containerStyle": "card",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "15px",
-              "maxDynamicHeight": 9000,
-              "minDynamicHeight": 4
-            },
-            {
-              "boxShadow": "none",
               "widgetName": "Container3",
               "borderColor": "transparent",
               "isCanvas": true,
@@ -3264,6 +3096,7 @@
         "layoutOnLoadActions": [
           [
             {
+              "id": "Business dashboard_chartFromTo",
               "name": "chartFromTo",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3274,6 +3107,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Business dashboard_select_repair_db",
               "name": "select_repair_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3281,6 +3115,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Business dashboard_select_repair_revenue",
               "name": "select_repair_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3292,6 +3127,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Business dashboard_select_showroom_db",
               "name": "select_showroom_db",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3301,6 +3137,7 @@
           ],
           [
             {
+              "id": "Business dashboard_avg_feed_repair",
               "name": "avg_feed_repair",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3308,6 +3145,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Business dashboard_avg_feed_sales",
               "name": "avg_feed_sales",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3315,6 +3153,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Business dashboard_carsales_revenue",
               "name": "carsales_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
@@ -3322,6 +3161,7 @@
               "timeoutInMillisecond": 10000
             },
             {
+              "id": "Business dashboard_monthly_showroom_revenue",
               "name": "monthly_showroom_revenue",
               "confirmBeforeExecute": false,
               "pluginType": "DB",

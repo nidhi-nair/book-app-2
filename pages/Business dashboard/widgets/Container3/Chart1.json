@@ -1,0 +1,76 @@
+{
+    "setAdaptiveYMin": true,
+    "boxShadow": "none",
+    "widgetName": "Chart1",
+    "allowScroll": false,
+    "dynamicPropertyPathList": [],
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.6adbe31e.svg",
+    "topRow": 8,
+    "bottomRow": 40,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {
+        "2kfwynmmd4": {
+            "data": "{{select_repair_revenue.data}}",
+            "seriesName": "Repair"
+        },
+        "hqbm4ygp43": {
+            "data": "{{chartFromTo.data}}",
+            "seriesName": "Showroom"
+        }
+    },
+    "animateLoading": true,
+    "parentColumnSpace": 12.6513671875,
+    "dynamicTriggerPathList": [],
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "leftColumn": 0,
+    "dynamicBindingPathList": [
+        {"key": "chartData.2kfwynmmd4.data"},
+        {"key": "chartData.hqbm4ygp43.data"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "yAxisName": "Revenue($)",
+                "xAxisName": "Product Line",
+                "caption": "Sales Report",
+                "theme": "fusion"
+            }
+        }
+    },
+    "key": "hu336izq9r",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 64,
+    "widgetId": "7jjaicxasd",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "xflhu03o4k",
+    "labelOrientation": "slant",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "Revenue($)",
+    "chartName": "Revenue Report",
+    "borderRadius": "0px",
+    "xAxisName": "Revenue Source",
+    "chartType": "LINE_CHART"
+}

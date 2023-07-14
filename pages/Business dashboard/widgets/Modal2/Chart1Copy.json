@@ -1,0 +1,67 @@
+{
+    "boxShadow": "none",
+    "widgetName": "Chart1Copy",
+    "allowScroll": false,
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.6adbe31e.svg",
+    "topRow": 7,
+    "bottomRow": 41,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"mm1lmdyl7k": {
+        "data": "[\n  {\n    \"x\": \"Showroom\",\n    \"y\": {{JSObject1.getCarSalesRevenue()}}\n  },\n  {\n    \"x\": \"Repairs\",\n    \"y\": {{JSObject1.getCarRepairRevenue()}}\n  }\n]",
+        "seriesName": "Sales"
+    }},
+    "animateLoading": true,
+    "parentColumnSpace": 17.9375,
+    "dynamicTriggerPathList": [],
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "leftColumn": 2,
+    "dynamicBindingPathList": [
+        {"key": "chartData.mm1lmdyl7k.data"},
+        {"key": "accentColor"},
+        {"key": "fontFamily"}
+    ],
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "yAxisName": "Revenue($)",
+                "xAxisName": "Product Line",
+                "caption": "Sales Report",
+                "theme": "fusion"
+            }
+        }
+    },
+    "key": "vznzmxat0j",
+    "labelTextSize": "0.875rem",
+    "rightColumn": 62,
+    "widgetId": "gqdddtz8o2",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "xr7ymj86j7",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "Revenue(\u20b9)",
+    "chartName": "",
+    "borderRadius": "0px",
+    "xAxisName": "",
+    "chartType": "BAR_CHART"
+}

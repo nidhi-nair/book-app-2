@@ -1,0 +1,32 @@
+{
+    "boxShadow": "none",
+    "widgetName": "order_select",
+    "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "topRow": 8,
+    "bottomRow": 12,
+    "parentRowSpace": 10,
+    "type": "DROP_DOWN_WIDGET",
+    "defaultOptionValue": "1",
+    "parentColumnSpace": 19.75,
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
+    "leftColumn": 39,
+    "dynamicBindingPathList": [
+        {"key": "isVisible"},
+        {"key": "accentColor"}
+    ],
+    "options": "[\n  {\n    \"label\": \"ASC\",\n    \"value\": \"1\"\n  },\n  {\n    \"label\": \"DESC\",\n    \"value\": \"-1\"\n  }\n]",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "rightColumn": 63,
+    "widgetId": "10v8a19m25",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": "{{FindQuery.data.length > 0}}",
+    "label": "",
+    "version": 1,
+    "parentId": "59rw5mx0bq",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "onOptionChange": "{{FindQuery.run()}}"
+}

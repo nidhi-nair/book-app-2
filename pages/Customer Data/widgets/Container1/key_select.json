@@ -1,0 +1,32 @@
+{
+    "boxShadow": "none",
+    "widgetName": "key_select",
+    "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "isVisible"}],
+    "topRow": 8,
+    "bottomRow": 12,
+    "parentRowSpace": 10,
+    "type": "DROP_DOWN_WIDGET",
+    "defaultOptionValue": "CustomerID",
+    "parentColumnSpace": 18.8828125,
+    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
+    "leftColumn": 12,
+    "dynamicBindingPathList": [
+        {"key": "isVisible"},
+        {"key": "accentColor"}
+    ],
+    "options": "[\n{\n\t\"label\": \"UsersDoNotDisturb\",\n\t\"value\": \"UsersDoNotDisturb\"\n}, \n{\n\t\"label\": \"CustomerEmailID\",\n\t\"value\": \"CustomerEmailID\"\n}, \n{\n\t\"label\": \"CustomerName\",\n\t\"value\": \"CustomerName\"\n}, \n{\n\t\"label\": \"CustomerID\",\n\t\"value\": \"CustomerID\"\n}]",
+    "isDisabled": false,
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "rightColumn": 39,
+    "widgetId": "asmgosgxjm",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": "{{FindQuery.data.length > 0}}",
+    "label": "",
+    "version": 1,
+    "parentId": "59rw5mx0bq",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "onOptionChange": "{{FindQuery.run()}}"
+}

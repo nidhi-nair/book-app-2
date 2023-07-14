@@ -1,0 +1,33 @@
+{
+    "boxShadow": "none",
+    "widgetName": "insert_col_input1",
+    "topRow": 8,
+    "bottomRow": 14,
+    "parentRowSpace": 10,
+    "type": "INPUT_WIDGET",
+    "parentColumnSpace": 7.6865234375,
+    "dynamicTriggerPathList": [],
+    "resetOnSubmit": true,
+    "leftColumn": 3,
+    "dynamicBindingPathList": [
+        {"key": "defaultText"},
+        {"key": "accentColor"}
+    ],
+    "labelStyle": "BOLD",
+    "inputType": "TEXT",
+    "placeholderText": "CustomerID",
+    "isDisabled": false,
+    "validation": "true",
+    "labelTextSize": "0.875rem",
+    "isRequired": true,
+    "rightColumn": 41,
+    "widgetId": "h1wbbv7alb",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": "true",
+    "label": "CustomerID:",
+    "version": 1,
+    "parentId": "9rhv3ioohq",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "defaultText": "c{{Math.floor(Math.random()*10000)}}"
+}

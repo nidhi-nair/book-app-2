@@ -1,0 +1,32 @@
+{
+    "boxShadow": "none",
+    "widgetName": "update_col_1",
+    "topRow": 7,
+    "bottomRow": 13,
+    "parentRowSpace": 10,
+    "type": "INPUT_WIDGET",
+    "parentColumnSpace": 8.8963623046875,
+    "dynamicTriggerPathList": [],
+    "resetOnSubmit": true,
+    "leftColumn": 2,
+    "dynamicBindingPathList": [
+        {"key": "defaultText"},
+        {"key": "accentColor"}
+    ],
+    "labelStyle": "BOLD",
+    "inputType": "TEXT",
+    "isDisabled": false,
+    "validation": "true",
+    "labelTextSize": "0.875rem",
+    "isRequired": true,
+    "rightColumn": 62,
+    "widgetId": "in8e51pg3y",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": "true",
+    "label": "CustomerID:",
+    "version": 1,
+    "parentId": "52qrodu5iz",
+    "isLoading": false,
+    "borderRadius": "0px",
+    "defaultText": "{{data_table.selectedRow.CustomerID}}"
+}

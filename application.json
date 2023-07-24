@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Send Messages",
-      "isDefault": false
-    },
-    {
       "id": "Customer Data",
       "isDefault": false
     },

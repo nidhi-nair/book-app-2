@@ -17,7 +17,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "path",
+      "path": "GetItem",
       "encodeParamsToggle": true,
       "body": "body",
       "httpMethod": "GET",
@@ -25,11 +25,8 @@
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [],
-    "isValid": false,
-    "invalids": [
-      "Unable to find datasource 641b2d14a8db493ee062adf5",
-      "Unable to find plugin 63b5996d336c9a2b0dcf583d"
-    ],
+    "isValid": true,
+    "invalids": [],
     "messages": [],
     "jsonPathKeys": [],
     "userSetOnLoad": false,

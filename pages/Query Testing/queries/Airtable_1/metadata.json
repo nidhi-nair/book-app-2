@@ -2,7 +2,7 @@
   "pluginType": "REMOTE",
   "pluginId": "airtable-plugin",
   "unpublishedAction": {
-    "name": "Airtable",
+    "name": "Airtable_1",
     "datasource": {
       "name": "Airtable",
       "pluginId": "airtable-plugin",
@@ -30,9 +30,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:26:48Z"
   },
-  "id": "Query Testing_Airtable",
+  "id": "Query Testing_Airtable_1",
   "deleted": false,
   "gitSyncId": "63c00ed3c727580240c84b23_641b2c48a8db493ee062addb"
 }

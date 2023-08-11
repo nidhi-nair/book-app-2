@@ -13,10 +13,7 @@
     "parentColumnSpace": 7.736328125,
     "dynamicTriggerPathList": [],
     "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "#FFC13D",
     "text": "Sales Report",

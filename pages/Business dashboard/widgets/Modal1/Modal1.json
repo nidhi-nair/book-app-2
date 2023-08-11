@@ -13,6 +13,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
     "leftColumn": 17,
+    "dynamicBindingPathList": [],
     "children": [{
         "boxShadow": "none",
         "widgetName": "Canvas21",

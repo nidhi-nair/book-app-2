@@ -13,10 +13,7 @@
     "parentColumnSpace": 14.26171875,
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "fontFamily"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicBindingPathList": [{"key": "fontFamily"}],
     "shouldTruncate": false,
     "truncateButtonColor": "#FFC13D",
     "text": "Please select the months for the revenue report",

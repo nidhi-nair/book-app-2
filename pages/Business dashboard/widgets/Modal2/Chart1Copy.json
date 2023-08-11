@@ -18,11 +18,7 @@
     "dynamicTriggerPathList": [],
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "leftColumn": 2,
-    "dynamicBindingPathList": [
-        {"key": "chartData.mm1lmdyl7k.data"},
-        {"key": "accentColor"},
-        {"key": "fontFamily"}
-    ],
+    "dynamicBindingPathList": [{"key": "chartData.mm1lmdyl7k.data"}],
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {

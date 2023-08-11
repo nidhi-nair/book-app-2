@@ -28,9 +28,7 @@
     "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "chartData.2kfwynmmd4.data"},
-        {"key": "chartData.hqbm4ygp43.data"},
-        {"key": "accentColor"},
-        {"key": "fontFamily"}
+        {"key": "chartData.hqbm4ygp43.data"}
     ],
     "customFusionChartConfig": {
         "type": "column2d",

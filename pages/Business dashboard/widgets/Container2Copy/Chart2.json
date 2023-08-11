@@ -20,10 +20,8 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "leftColumn": 0,
     "dynamicBindingPathList": [
-        {"key": "chartData.rlw5yf8e4t.data"},
         {"key": "customFusionChartConfig"},
-        {"key": "accentColor"},
-        {"key": "fontFamily"}
+        {"key": "chartData.rlw5yf8e4t.data"}
     ],
     "customFusionChartConfig": "{{ChartManager.getBarChart()}}",
     "key": "6g2p5b508u",

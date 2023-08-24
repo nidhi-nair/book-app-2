@@ -1,0 +1,4 @@
+INSERT INTO public."agent" (
+	"agent")
+VALUES (
+	'{{insert_form.formData.agent}}');

@@ -31,6 +31,10 @@
     {
       "id": "Page1",
       "isDefault": false
+    },
+    {
+      "id": "Public.agent",
+      "isDefault": false
     }
   ],
   "viewMode": false,

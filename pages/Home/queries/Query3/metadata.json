@@ -15,6 +15,7 @@
     },
     "pageId": "Home",
     "actionConfiguration": {
+      "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "path": "GetItem",
       "encodeParamsToggle": true,

@@ -45,9 +45,6 @@
           ]
         ],
         "layoutOnLoadActionErrors": [],
-        "mongoEscapedWidgetNames": [
-          "data_table"
-        ],
         "validOnPageLoadActions": true,
         "id": "Customer Data",
         "deleted": false,

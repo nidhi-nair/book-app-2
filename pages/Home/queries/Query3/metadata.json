@@ -19,9 +19,11 @@
       "paginationType": "NONE",
       "path": "GetItem",
       "encodeParamsToggle": true,
+      "body": "",
       "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

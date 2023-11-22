@@ -13,27 +13,11 @@
       "isDefault": false
     },
     {
-      "id": "Business dashboard",
-      "isDefault": false
-    },
-    {
       "id": "Home",
       "isDefault": true
     },
     {
-      "id": "Test",
-      "isDefault": false
-    },
-    {
       "id": "Query Testing",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
-      "isDefault": false
-    },
-    {
-      "id": "Public.agent",
       "isDefault": false
     }
   ],

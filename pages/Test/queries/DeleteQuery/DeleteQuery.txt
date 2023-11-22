@@ -1,2 +1,0 @@
-DELETE FROM public."employees"
-  WHERE "value" = {{data_table.triggeredRow.value}};

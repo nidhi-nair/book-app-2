@@ -1,3 +1,0 @@
-UPDATE public."employees" SET
-		"label" = '{{update_form.fieldState.label.isVisible ? update_form.formData.label : update_form.sourceData.label}}'
-WHERE "value" = {{data_table.selectedRow.value}};

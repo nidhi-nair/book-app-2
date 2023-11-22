@@ -1,4 +1,0 @@
-SELECT * FROM public."agent"
-WHERE "agent" ilike '%{{data_table.searchText || ""}}%'
-LIMIT {{data_table.pageSize}}
-OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}};

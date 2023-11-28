@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "executeWorkflow",
-    "fullyQualifiedName": "main.executeWorkflow",
+    "fullyQualifiedName": "happy_birthday.executeWorkflow",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Home",
-    "collectionId": "Home_main",
+    "collectionId": "Home_happy_birthday",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,9 +38,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-23T13:06:24Z"
   },
-  "id": "Home_main.executeWorkflow",
+  "id": "Home_happy_birthday.executeWorkflow",
   "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_655dc1640d119850a899c910"
+  "gitSyncId": "63c00ed3c727580240c84b23_655f4e5089418f308fa4a798"
 }

@@ -1,6 +1,6 @@
 {
   "unpublishedCollection": {
-    "name": "main",
+    "name": "order_refund",
     "pageId": "Home",
     "pluginId": "js-plugin",
     "pluginType": "JS",
@@ -9,7 +9,7 @@
     "variables": [],
     "userPermissions": []
   },
-  "id": "Home_main",
+  "id": "Home_order_refund",
   "deleted": false,
   "gitSyncId": "64b8e040cc2614643ec667c4_64c36b03263ef667202f969e"
 }

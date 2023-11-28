@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "appsmith_workflows",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home_appsmith_workflows",
+  "deleted": false,
+  "gitSyncId": "63c00ed3c727580240c84b23_65647167f1d5f00cda453bb8"
+}

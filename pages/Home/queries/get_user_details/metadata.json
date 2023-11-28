@@ -19,7 +19,7 @@
       "paginationType": "NONE",
       "path": "GetItem",
       "encodeParamsToggle": true,
-      "body": "",
+      "body": "/",
       "selfReferencingDataPaths": []
     },
     "executeOnLoad": false,

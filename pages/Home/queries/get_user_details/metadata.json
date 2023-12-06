@@ -31,8 +31,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-08-11T05:14:16Z"
+    "userPermissions": []
   },
   "id": "Home_get_user_details",
   "deleted": false,

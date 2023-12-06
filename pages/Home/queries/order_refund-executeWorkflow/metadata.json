@@ -38,8 +38,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-22T08:52:52Z"
+    "userPermissions": []
   },
   "id": "Home_order_refund.executeWorkflow",
   "deleted": false,

@@ -53,8 +53,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-03-16T18:25:43Z"
+    "userPermissions": []
   },
   "id": "Home_fetch_credit_report",
   "deleted": false,

@@ -14,7 +14,7 @@ export default {
 				message: "Refund approved"  
 			});
 		} else {
-			if (refundApproval()) {
+			if (refundApproval() == "Approved") {
 				await initiate_refund.run();
 				await send_email.run({
 					message: "Refund Approved"

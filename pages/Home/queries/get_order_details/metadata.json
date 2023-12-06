@@ -41,8 +41,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-03-22T15:57:34Z"
+    "userPermissions": []
   },
   "id": "Home_get_order_details",
   "deleted": false,

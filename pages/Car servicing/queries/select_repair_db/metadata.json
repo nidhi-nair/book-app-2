@@ -21,15 +21,44 @@
       "body": "",
       "selfReferencingDataPaths": [],
       "formData": {
+        "aggregate": {
+          "limit": {
+            "data": "10"
+          },
+          "arrayPipelines": {
+            "data": ""
+          }
+        },
         "collection": {
           "data": "repair-db",
           "viewType": "component",
           "componentData": "repair-db"
         },
         "command": {
-          "data": "FIND",
+          "data": "INSERT",
           "viewType": "component",
           "componentData": "FIND"
+        },
+        "count": {
+          "query": {
+            "data": ""
+          }
+        },
+        "delete": {
+          "limit": {
+            "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          }
+        },
+        "distinct": {
+          "query": {
+            "data": ""
+          },
+          "key": {
+            "data": ""
+          }
         },
         "find": {
           "limit": {
@@ -37,11 +66,25 @@
           },
           "skip": {
             "data": "{{(List.pageNo - 1) *5}}"
+          },
+          "query": {
+            "data": ""
+          },
+          "sort": {
+            "data": ""
+          },
+          "projection": {
+            "data": ""
+          }
+        },
+        "insert": {
+          "documents": {
+            "data": ""
           }
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"repair-db\",\n  \"skip\": {{(List.pageNo - 1) *5}},\n  \"limit\": 5,\n  \"batchSize\": 5\n}\n",
+            "data": "{\n  \"insert\": \"repair-db\",\n  \"documents\": []\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -49,6 +92,17 @@
           "data": true,
           "viewType": "component",
           "componentData": true
+        },
+        "updateMany": {
+          "limit": {
+            "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          },
+          "update": {
+            "data": ""
+          }
         }
       }
     },
@@ -67,8 +121,7 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-02-24T05:34:24Z"
+    "userPermissions": []
   },
   "id": "Car servicing_select_repair_db",
   "deleted": false,

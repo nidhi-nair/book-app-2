@@ -2,6 +2,7 @@
     "boxShadow": "none",
     "widgetName": "select_salesperson2",
     "isFilterable": true,
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
     "iconSVG": "/static/media/icon.bd99caba.svg",
     "labelText": "",
@@ -20,12 +21,12 @@
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
-        {"key": "options"}
+        {"key": "sourceData"}
     ],
     "labelPosition": "Left",
-    "options": "{{select_salesperson.data}}",
     "placeholderText": "Select option",
     "isDisabled": false,
+    "sourceData": "{{select_salesperson.data}}",
     "key": "h3d6tjkd53",
     "labelTextSize": "0.875rem",
     "isRequired": false,
@@ -34,12 +35,14 @@
     "dynamicHeight": "FIXED",
     "widgetId": "2ol8vl33yg",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "optionValue": "value",
     "isVisible": true,
     "version": 1,
     "parentId": "vv8fyltfyr",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "optionLabel": "label",
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

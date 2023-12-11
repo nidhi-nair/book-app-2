@@ -30,7 +30,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:26:48Z"
   },
   "id": "Query Testing_Airtable_1",
   "deleted": false,

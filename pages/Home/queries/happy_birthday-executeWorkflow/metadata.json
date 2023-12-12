@@ -38,7 +38,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-23T13:06:24Z"
   },
   "id": "Home_happy_birthday.executeWorkflow",
   "deleted": false,

@@ -19,10 +19,9 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 25,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "sourceData"},
-        {"key": "defaultOptionValue"}
+        {"key": "defaultOptionValue"},
+        {"key": "borderRadius"}
     ],
     "labelPosition": "Left",
     "placeholderText": "Select salesperson",

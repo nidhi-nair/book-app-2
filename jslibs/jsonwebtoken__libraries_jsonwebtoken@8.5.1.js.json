@@ -7,7 +7,5 @@
   "url": "/libraries/jsonwebtoken@8.5.1.js",
   "version": "8.5.1",
   "defs": "{\"!name\":\"LIB/jsonwebtoken\",\"jsonwebtoken\":{\"decode\":{\"!type\":\"fn()\",\"prototype\":{}},\"verify\":{\"!type\":\"fn()\",\"prototype\":{}},\"sign\":{\"!type\":\"fn()\",\"prototype\":{}},\"JsonWebTokenError\":{\"!type\":\"fn()\",\"prototype\":{\"toString\":{\"!type\":\"fn()\"},\"message\":{\"!type\":\"string\"},\"stack\":{\"!type\":\"string\"}}},\"NotBeforeError\":{\"!type\":\"fn()\",\"prototype\":{}},\"TokenExpiredError\":{\"!type\":\"fn()\",\"prototype\":{}}}}",
-  "deleted": false,
-  "policies": [],
-  "userPermissions": []
+  "deleted": false
 }

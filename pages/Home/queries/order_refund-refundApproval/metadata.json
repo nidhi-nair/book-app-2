@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "executeWorkflow",
-    "fullyQualifiedName": "order_refund.executeWorkflow",
+    "name": "refundApproval",
+    "fullyQualifiedName": "order_refund.refundApproval",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -20,14 +20,7 @@
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": [
-        {
-          "name": "data"
-        },
-        {
-          "name": "context"
-        }
-      ]
+      "jsArguments": []
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -41,10 +34,9 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": [],
-    "createdAt": "2023-11-22T08:52:52Z"
+    "userPermissions": []
   },
-  "id": "Home_order_refund.executeWorkflow",
+  "id": "Home_order_refund.refundApproval",
   "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_655dc1640d119850a899c910"
+  "gitSyncId": "63c00ed3c727580240c84b23_65785baa822dfa036f546648"
 }

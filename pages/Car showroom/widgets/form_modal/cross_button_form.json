@@ -11,6 +11,7 @@
     "hideCard": false,
     "animateLoading": true,
     "leftColumn": 56,
+    "dynamicBindingPathList": [],
     "iconSize": 24,
     "isDisabled": false,
     "key": "u3ioj7qc40",

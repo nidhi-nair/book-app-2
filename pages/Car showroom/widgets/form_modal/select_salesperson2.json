@@ -19,9 +19,8 @@
     "dynamicTriggerPathList": [],
     "leftColumn": 22,
     "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "borderRadius"}
     ],
     "labelPosition": "Left",
     "placeholderText": "Select option",

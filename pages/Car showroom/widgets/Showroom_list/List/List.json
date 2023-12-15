@@ -271,19 +271,7 @@
         {"key": "onPageChange"}
     ],
     "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "template.cust_name.text"},
-        {"key": "listData"},
-        {"key": "template.cust_name_label.text"},
-        {"key": "template.cust_name.fontSize"},
-        {"key": "template.sales_id_label.text"},
-        {"key": "template.sales_id.text"},
-        {"key": "template.cust_name_label.fontSize"},
-        {"key": "template.sales_id_label.fontSize"},
-        {"key": "template.cust_name.fontStyle"},
-        {"key": "template.sales_id.fontStyle"},
-        {"key": "accentColor"}
-    ],
+    "dynamicBindingPathList": [{"key": "listData"}],
     "gridType": "vertical",
     "enhancements": true,
     "children": [{

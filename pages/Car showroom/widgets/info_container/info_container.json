@@ -32,6 +32,7 @@
         "minHeight": 400,
         "parentColumnSpace": 1,
         "leftColumn": 0,
+        "dynamicBindingPathList": [],
         "key": "0wnopnbwbj",
         "labelTextSize": "0.875rem",
         "rightColumn": 430.5,

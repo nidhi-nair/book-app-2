@@ -17,10 +17,7 @@
     "parentColumnSpace": 6.4140625,
     "dynamicTriggerPathList": [],
     "leftColumn": 22,
-    "dynamicBindingPathList": [
-        {"key": "options"},
-        {"key": "accentColor"}
-    ],
+    "dynamicBindingPathList": [{"key": "sourceData"}],
     "placeholderText": "Select option",
     "isDisabled": false,
     "sourceData": "{{select_car_db.data.map(c =>({label:c.car_name, value:c.car_name}))}}",

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Main",
+    "pageId": "License Expiry",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "License Expiry_Main",
+  "deleted": false,
+  "gitSyncId": "63c00ed3c727580240c84b23_65816d63379f475fe8dfab75"
+}

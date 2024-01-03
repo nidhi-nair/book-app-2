@@ -19,6 +19,10 @@
     {
       "id": "Query Testing",
       "isDefault": false
+    },
+    {
+      "id": "License Expiry",
+      "isDefault": false
     }
   ],
   "viewMode": false,

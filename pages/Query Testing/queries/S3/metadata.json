@@ -105,7 +105,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:40:31Z"
   },
   "id": "Query Testing_S3",
   "deleted": false,

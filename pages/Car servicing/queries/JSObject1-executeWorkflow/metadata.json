@@ -34,7 +34,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-10-31T12:13:26Z"
   },
   "id": "Car servicing_JSObject1.executeWorkflow",
   "deleted": false,

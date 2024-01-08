@@ -32,7 +32,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:29:38Z"
   },
   "id": "Query Testing_SMTP",
   "deleted": false,

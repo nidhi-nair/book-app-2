@@ -37,7 +37,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:36:14Z"
   },
   "id": "Query Testing_DynamoDB",
   "deleted": false,

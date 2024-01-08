@@ -38,7 +38,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-19T10:16:25Z"
   },
   "id": "License Expiry_Main.executeWorkflow",
   "deleted": false,

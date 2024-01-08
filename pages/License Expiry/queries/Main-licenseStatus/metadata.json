@@ -38,7 +38,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-12-19T10:55:15Z"
   },
   "id": "License Expiry_Main.licenseStatus",
   "deleted": false,

@@ -42,7 +42,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:39:50Z"
   },
   "id": "Query Testing_MS_SQL_SERVER",
   "deleted": false,

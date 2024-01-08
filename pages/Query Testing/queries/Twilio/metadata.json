@@ -30,7 +30,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-03-22T16:38:14Z"
   },
   "id": "Query Testing_Twilio",
   "deleted": false,

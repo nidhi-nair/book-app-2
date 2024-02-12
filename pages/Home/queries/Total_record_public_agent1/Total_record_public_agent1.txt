@@ -1,0 +1,1 @@
+SELECT COUNT(*) from public.agent where agent ilike '%{{Table1.searchText}}%';

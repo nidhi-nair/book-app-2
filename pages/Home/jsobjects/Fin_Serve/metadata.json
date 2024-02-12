@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "Fin_Serve",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Home_Fin_Serve",
+  "deleted": false,
+  "gitSyncId": "63c00ed3c727580240c84b23_65bcb83c10e72a3b9aad86e9"
+}

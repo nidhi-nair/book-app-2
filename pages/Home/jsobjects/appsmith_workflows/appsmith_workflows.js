@@ -1,5 +1,7 @@
 export default {
-	async approval_request() {
+	async executeWorkflow() {
+		// Orchestrate your workflow below
 		
+		return true;
 	}
 }

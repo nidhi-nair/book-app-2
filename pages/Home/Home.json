@@ -26,7 +26,35 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Home_Select_public_agent1",
+              "name": "Select_public_agent1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText",
+                "Table1.sortOrder.column ? \"ORDER BY \" + Table1.sortOrder.column + \"  \" + (Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\") : \"\"",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home_Total_record_public_agent1",
+              "name": "Total_record_public_agent1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Home",

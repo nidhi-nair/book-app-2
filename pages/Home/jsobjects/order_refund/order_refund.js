@@ -1,12 +1,7 @@
 export default {
 	executeWorkflow: async (data, context) => {
-		const orderDetails = await get_order_details.run({
-			orderId: data.orderId
-		});
-
-		const userDetails = await get_user_details.run({
-			userId: data.userId 
-		});
+		const orderDetails = await get_order_details.run({orderId: data.orderId});
+		const userDetails = await get_user_details.run({userId: data.userId });
 
 		if (this.isLowRisk(orderDetails, userDetails)) {
 			await initiate_refund.run();
@@ -14,7 +9,14 @@ export default {
 				message: "Refund approved"  
 			});
 		} else {
-			if (this.refundApproval() == "Approved") {
+			const resolution = await appsmith.workflows.assignRequest({
+				"requestName": "Refund Order",
+				"message": `${userDetails.id} requested a refund for the order ${orderDetails.orderId}`,
+				"requestToGroups": ["L2 Agents"],
+				"metadata": {"userId": data.userId, "orderDetails": orderDetails},
+				"allowedResolutions": ["Approved", "Reject"]
+			})
+			if (resolution == "Approved") {
 				await initiate_refund.run();
 				await send_email.run({
 					message: "Refund Approved"
@@ -33,24 +35,6 @@ export default {
 		} else {
 			return false;
 		}
-	},
-
-	refundApproval: () => {
-		const resolution = appsmith_workflows.approval_request({
-			"requestToUsers": [
-				"neosrix+2@gmail.com", 
-				"ayush@appsmith.com"
-			],
-			"requestToGroups": [
-				"ayush@appsmith.com"
-			],
-			"message": "Customer with id #{{data.userId}} requested refund of amount {{orderDetails.amount}} for item {{orderDetails.item}}.",
-			"name": "Refund Order",
-			"allowedResolutions": [
-				"Approved",
-				"Reject"
-			]})
-		return resolution;
 	}
 }
 

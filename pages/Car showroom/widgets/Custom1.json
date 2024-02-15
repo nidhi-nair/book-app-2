@@ -35,6 +35,7 @@
     "isDeprecated": false,
     "rightColumn": 5,
     "isSearchWildcard": true,
+    "dynamicHeight": "FIXED",
     "widgetId": "ye7ruwgr31",
     "isVisible": true,
     "version": 1,

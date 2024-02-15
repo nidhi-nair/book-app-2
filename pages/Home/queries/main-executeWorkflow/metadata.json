@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "executeWorkflow",
-    "fullyQualifiedName": "appsmith_workflows.executeWorkflow",
+    "fullyQualifiedName": "main.executeWorkflow",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,7 +14,7 @@
       "userPermissions": []
     },
     "pageId": "Home",
-    "collectionId": "Home_appsmith_workflows",
+    "collectionId": "Home_main",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -37,7 +37,7 @@
     "userPermissions": [],
     "createdAt": "2023-11-27T10:40:24Z"
   },
-  "id": "Home_appsmith_workflows.executeWorkflow",
+  "id": "Home_main.executeWorkflow",
   "deleted": false,
   "gitSyncId": "63c00ed3c727580240c84b23_65647218f1d5f00cda453bc1"
 }

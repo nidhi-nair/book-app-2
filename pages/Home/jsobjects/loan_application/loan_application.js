@@ -35,7 +35,7 @@ export default {
 		
 		
 		function collectDocuments() {
-			const resolution = appsmith_workflows.executeWorkflow({
+			const resolution = main.executeWorkflow({
 				"requestToUsers": [ 
 					 "collection_agent@bank.com"
 				],
@@ -50,7 +50,7 @@ export default {
 		}
 		
 		function kycApproval() {
-			const resolution = appsmith_workflows.executeWorkflow({
+			const resolution = main.executeWorkflow({
 				"requestToGroups": [ 
 					 "KYC Team"
 				],
@@ -66,7 +66,7 @@ export default {
 		}
 			
 		function creditApproval() {
-			const resolution = appsmith_workflows.executeWorkflow({
+			const resolution = main.executeWorkflow({
 				"requestToGroups": [ 
 					 "Credit Team"
 				],
@@ -82,7 +82,7 @@ export default {
 		}
 		
 		function loanSacntion() {
-			const resolution = appsmith_workflows.executeWorkflow({
+			const resolution = main.executeWorkflow({
 				"requestToGroups": [ 
 					 "manager_branch_name@bank.com"
 				],

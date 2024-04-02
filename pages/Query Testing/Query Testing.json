@@ -1,10 +1,10 @@
 {
+  "gitSyncId": "641a8da5a8db493ee062abbb_641b24b0a8db493ee062ad3e",
   "unpublishedPage": {
     "name": "Query Testing",
     "slug": "query-testing",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
@@ -24,20 +24,8 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Query Testing",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+        }
       }
-    ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "641a8da5a8db493ee062abbb_641b24b0a8db493ee062ad3e"
+    ]
+  }
 }

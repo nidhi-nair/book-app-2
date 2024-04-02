@@ -1,10 +1,10 @@
 {
+  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26",
   "unpublishedPage": {
     "name": "Home",
     "slug": "home",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
@@ -25,48 +25,8 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Home_Select_public_agent1",
-              "name": "Select_public_agent1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.column ? \"ORDER BY \" + Table1.sortOrder.column + \"  \" + (Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\") : \"\"",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Home_Total_record_public_agent1",
-              "name": "Total_record_public_agent1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Home",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+        }
       }
-    ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26"
+    ]
+  }
 }

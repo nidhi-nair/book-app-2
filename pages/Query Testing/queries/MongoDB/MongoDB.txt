@@ -1,6 +1,1 @@
-{
-  "find": "",
-  "filter": {rating: {gte: 9}},
-  "limit": 10,
-  "batchSize": 10
-}
+"{\n  \"find\": \"\",\n  \"filter\": {rating: {gte: 9}},\n  \"limit\": 10,\n  \"batchSize\": 10\n}\n"

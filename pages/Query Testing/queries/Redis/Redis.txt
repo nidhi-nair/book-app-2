@@ -1,1 +1,1 @@
-SET key_name new_value
+"SET key_name new_value"

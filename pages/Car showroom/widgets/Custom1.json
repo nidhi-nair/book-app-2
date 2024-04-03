@@ -1,54 +1,56 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 61,
-    "widgetName": "Custom1",
-    "borderColor": "#E0DEDE",
-    "srcDoc": {
-        "css": ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: center;\n\tborder-radius: 0px;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n\tfont-size: 16px;\n\tfont-weight: 700;\n}\n\n.tip-header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: baseline;\n}\n\n.tip-header div {\n\tcolor: #999;\n}\n\n.button-container {\n\ttext-align: right;\t\n}\n\n.button-container button {\n  margin: 0 10px;\n\tborder-radius: var(--appsmith-theme-borderRadius) !important;\n}\n\n.button-container button.primary {\n\tbackground: var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button.reset:not([disabled]) {\n\tcolor: var(--appsmith-theme-primaryColor) !important;\n\tborder-color: var(--appsmith-theme-primaryColor) !important;\n}",
-        "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nimport { Button, Card } from 'https://cdn.jsdelivr.net/npm/antd@5.11.1/+esm';\nimport Markdown from 'https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm';\n\nfunction App() {\n  const [currentIndex, setCurrentIndex] = React.useState(0);\n  const handleNext = () => {\n    setCurrentIndex(prevIndex => (prevIndex + 1) % appsmith.model.tips.length);\n  };\n  const handleReset = () => {\n    setCurrentIndex(0);\n    appsmith.triggerEvent(\"onResetClick\");\n  };\n  return /*#__PURE__*/React.createElement(Card, {\n    className: \"app\",\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tip-container\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tip-header\"\n  }, /*#__PURE__*/React.createElement(\"h2\", null, \"Custom Widget\"), /*#__PURE__*/React.createElement(\"div\", null, currentIndex + 1, \" / \", appsmith.model.tips.length, \"  \")), /*#__PURE__*/React.createElement(Markdown, null, appsmith.model.tips[currentIndex])), /*#__PURE__*/React.createElement(\"div\", {\n    className: \"button-container\"\n  }, /*#__PURE__*/React.createElement(Button, {\n    className: \"primary\",\n    onClick: handleNext,\n    type: \"primary\"\n  }, \"Next Tip\"), /*#__PURE__*/React.createElement(Button, {\n\tclassName: \"reset\",\n\tdisabled: currentIndex === 0,\n    onClick: handleReset\n  }, \"Reset\")));\n}\nappsmith.onReady(() => {\n  reactDom.render( /*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});",
-        "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"><\/div>\n"
-    },
-    "isCanvas": false,
-    "displayName": "Custom",
-    "iconSVG": "/static/media/icon.867bcc8399fa3f897d425d72690b86e4.svg",
-    "searchTags": ["external"],
-    "topRow": 31,
-    "bottomRow": 61,
-    "parentRowSpace": 10,
-    "type": "CUSTOM_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 5,
-    "parentColumnSpace": 17.9375,
-    "dynamicBindingPathList": [
-        {"key": "theme"},
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "leftColumn": 0,
-    "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
-    "borderWidth": "1",
-    "theme": "{{appsmith.theme}}",
-    "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
-    "events": ["onResetClick"],
-    "key": "r4ev3whtoo",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 5,
-    "isSearchWildcard": true,
-    "dynamicHeight": "FIXED",
-    "widgetId": "ye7ruwgr31",
-    "isVisible": true,
-    "version": 1,
-    "uncompiledSrcDoc": {
-        "css": ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: center;\n\tborder-radius: 0px;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n\tfont-size: 16px;\n\tfont-weight: 700;\n}\n\n.tip-header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: baseline;\n}\n\n.tip-header div {\n\tcolor: #999;\n}\n\n.button-container {\n\ttext-align: right;\t\n}\n\n.button-container button {\n  margin: 0 10px;\n\tborder-radius: var(--appsmith-theme-borderRadius) !important;\n}\n\n.button-container button.primary {\n\tbackground: var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button.reset:not([disabled]) {\n\tcolor: var(--appsmith-theme-primaryColor) !important;\n\tborder-color: var(--appsmith-theme-primaryColor) !important;\n}",
-        "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm'\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm'\nimport { Button, Card } from 'https://cdn.jsdelivr.net/npm/antd@5.11.1/+esm'\nimport Markdown from 'https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm';\n\nfunction App() {\n\tconst [currentIndex, setCurrentIndex] = React.useState(0);\n\n\tconst handleNext = () => {\n\t\tsetCurrentIndex((prevIndex) => (prevIndex + 1) % appsmith.model.tips.length);\n\t};\n\n\tconst handleReset = () => {\n\t\tsetCurrentIndex(0);\n\t\tappsmith.triggerEvent(\"onResetClick\");\n\t};\n\n\treturn (\n\t\t<Card className=\"app\">\n\t\t\t<div className=\"tip-container\">\n\t\t\t\t<div className=\"tip-header\">\n\t\t\t\t\t<h2>Custom Widget<\/h2>\n\t\t\t\t\t<div>{currentIndex + 1} / {appsmith.model.tips.length}\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<Markdown>{appsmith.model.tips[currentIndex]}<\/Markdown>\n\t\t\t<\/div>\n\t\t\t<div className=\"button-container\">\n\t\t\t\t<Button className=\"primary\" onClick={handleNext} type=\"primary\">Next Tip<\/Button>\n\t\t\t\t<Button className=\"reset\" disabled={currentIndex === 0} onClick={handleReset}>Reset<\/Button>\n\t\t\t<\/div>\n\t<\/Card>\n);\n}\n\nappsmith.onReady(() => {\n\treactDom.render(<App />, document.getElementById(\"root\"));\n});",
-        "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"><\/div>\n"
-    },
-    "parentId": "0",
-    "tags": ["Display"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 31,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0
+  "backgroundColor" : "#FFFFFF",
+  "borderColor" : "#E0DEDE",
+  "borderRadius" : "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth" : "1",
+  "bottomRow" : 61,
+  "boxShadow" : "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel" : "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
+  "displayName" : "Custom",
+  "dynamicBindingPathList" : [ {
+    "key" : "theme"
+  }, {
+    "key" : "borderRadius"
+  }, {
+    "key" : "boxShadow"
+  } ],
+  "dynamicHeight" : "FIXED",
+  "events" : [ "onResetClick" ],
+  "hideCard" : false,
+  "iconSVG" : "/static/media/icon.867bcc8399fa3f897d425d72690b86e4.svg",
+  "isCanvas" : false,
+  "isDeprecated" : false,
+  "isLoading" : false,
+  "isSearchWildcard" : true,
+  "isVisible" : true,
+  "key" : "r4ev3whtoo",
+  "leftColumn" : 0,
+  "mobileBottomRow" : 61,
+  "mobileLeftColumn" : 0,
+  "mobileRightColumn" : 5,
+  "mobileTopRow" : 31,
+  "onResetClick" : "{{showAlert('Successfully reset!!', '');}}",
+  "parentColumnSpace" : 17.9375,
+  "parentId" : "0",
+  "parentRowSpace" : 10,
+  "renderMode" : "CANVAS",
+  "rightColumn" : 5,
+  "searchTags" : [ "external" ],
+  "srcDoc" : {
+    "css" : ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: center;\n\tborder-radius: 0px;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n\tfont-size: 16px;\n\tfont-weight: 700;\n}\n\n.tip-header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: baseline;\n}\n\n.tip-header div {\n\tcolor: #999;\n}\n\n.button-container {\n\ttext-align: right;\t\n}\n\n.button-container button {\n  margin: 0 10px;\n\tborder-radius: var(--appsmith-theme-borderRadius) !important;\n}\n\n.button-container button.primary {\n\tbackground: var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button.reset:not([disabled]) {\n\tcolor: var(--appsmith-theme-primaryColor) !important;\n\tborder-color: var(--appsmith-theme-primaryColor) !important;\n}",
+    "html" : "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js" : "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nimport { Button, Card } from 'https://cdn.jsdelivr.net/npm/antd@5.11.1/+esm';\nimport Markdown from 'https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm';\n\nfunction App() {\n  const [currentIndex, setCurrentIndex] = React.useState(0);\n  const handleNext = () => {\n    setCurrentIndex(prevIndex => (prevIndex + 1) % appsmith.model.tips.length);\n  };\n  const handleReset = () => {\n    setCurrentIndex(0);\n    appsmith.triggerEvent(\"onResetClick\");\n  };\n  return /*#__PURE__*/React.createElement(Card, {\n    className: \"app\",\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tip-container\"\n  }, /*#__PURE__*/React.createElement(\"div\", {\n    className: \"tip-header\"\n  }, /*#__PURE__*/React.createElement(\"h2\", null, \"Custom Widget\"), /*#__PURE__*/React.createElement(\"div\", null, currentIndex + 1, \" / \", appsmith.model.tips.length, \"  \")), /*#__PURE__*/React.createElement(Markdown, null, appsmith.model.tips[currentIndex])), /*#__PURE__*/React.createElement(\"div\", {\n    className: \"button-container\"\n  }, /*#__PURE__*/React.createElement(Button, {\n    className: \"primary\",\n    onClick: handleNext,\n    type: \"primary\"\n  }, \"Next Tip\"), /*#__PURE__*/React.createElement(Button, {\n\tclassName: \"reset\",\n\tdisabled: currentIndex === 0,\n    onClick: handleReset\n  }, \"Reset\")));\n}\nappsmith.onReady(() => {\n  reactDom.render( /*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});"
+  },
+  "tags" : [ "Display" ],
+  "theme" : "{{appsmith.theme}}",
+  "topRow" : 31,
+  "type" : "CUSTOM_WIDGET",
+  "uncompiledSrcDoc" : {
+    "css" : ".app {\n\theight: calc(var(--appsmith-ui-height) * 1px);\n\twidth: calc(var(--appsmith-ui-width) * 1px);\n\tjustify-content: center;\n\tborder-radius: 0px;\n}\n\n.tip-container {\n  margin-bottom: 20px;\n}\n\n.tip-container h2 {\n  margin-bottom: 20px;\n\tfont-size: 16px;\n\tfont-weight: 700;\n}\n\n.tip-header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: baseline;\n}\n\n.tip-header div {\n\tcolor: #999;\n}\n\n.button-container {\n\ttext-align: right;\t\n}\n\n.button-container button {\n  margin: 0 10px;\n\tborder-radius: var(--appsmith-theme-borderRadius) !important;\n}\n\n.button-container button.primary {\n\tbackground: var(--appsmith-theme-primaryColor) !important;\n}\n\n.button-container button.reset:not([disabled]) {\n\tcolor: var(--appsmith-theme-primaryColor) !important;\n\tborder-color: var(--appsmith-theme-primaryColor) !important;\n}",
+    "html" : "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js" : "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm'\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm'\nimport { Button, Card } from 'https://cdn.jsdelivr.net/npm/antd@5.11.1/+esm'\nimport Markdown from 'https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm';\n\nfunction App() {\n\tconst [currentIndex, setCurrentIndex] = React.useState(0);\n\n\tconst handleNext = () => {\n\t\tsetCurrentIndex((prevIndex) => (prevIndex + 1) % appsmith.model.tips.length);\n\t};\n\n\tconst handleReset = () => {\n\t\tsetCurrentIndex(0);\n\t\tappsmith.triggerEvent(\"onResetClick\");\n\t};\n\n\treturn (\n\t\t<Card className=\"app\">\n\t\t\t<div className=\"tip-container\">\n\t\t\t\t<div className=\"tip-header\">\n\t\t\t\t\t<h2>Custom Widget</h2>\n\t\t\t\t\t<div>{currentIndex + 1} / {appsmith.model.tips.length}\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<Markdown>{appsmith.model.tips[currentIndex]}</Markdown>\n\t\t\t</div>\n\t\t\t<div className=\"button-container\">\n\t\t\t\t<Button className=\"primary\" onClick={handleNext} type=\"primary\">Next Tip</Button>\n\t\t\t\t<Button className=\"reset\" disabled={currentIndex === 0} onClick={handleReset}>Reset</Button>\n\t\t\t</div>\n\t</Card>\n);\n}\n\nappsmith.onReady(() => {\n\treactDom.render(<App />, document.getElementById(\"root\"));\n});"
+  },
+  "version" : 1,
+  "widgetId" : "ye7ruwgr31",
+  "widgetName" : "Custom1"
 }

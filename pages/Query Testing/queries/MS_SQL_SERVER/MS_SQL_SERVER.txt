@@ -1,8 +1,1 @@
-INSERT INTO users
-  (name, gender, email)
-VALUES
-  (
-    {{ nameInput.text }},
-    {{ genderDropdown.selectedOptionValue }},
-    {{ nameInput.text }}
-  );
+"INSERT INTO users\n  (name, gender, email)\nVALUES\n  (\n    {{ nameInput.text }},\n    {{ genderDropdown.selectedOptionValue }},\n    {{ nameInput.text }}\n  );\n"

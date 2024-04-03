@@ -1,7 +1,1 @@
-UPDATE showroom_db
-SET customer_phone= {{PhoneInput1.text}}, 
-		customer_email= {{Input1.text}},
-		selling_price={{CurrencyInput3.value}},
-		salesperson_responsible={{salesperson_select1.selectedOptionLabel}},
-		salesperson_id={{salesperson_select1.selectedOptionValue}}
-WHERE sales_id={{List.selectedItem.sales_id}};
+"UPDATE showroom_db\nSET customer_phone= {{PhoneInput1.text}}, \n\t\tcustomer_email= {{Input1.text}},\n\t\tselling_price={{CurrencyInput3.value}},\n\t\tsalesperson_responsible={{salesperson_select1.selectedOptionLabel}},\n\t\tsalesperson_id={{salesperson_select1.selectedOptionValue}}\nWHERE sales_id={{List.selectedItem.sales_id}};"

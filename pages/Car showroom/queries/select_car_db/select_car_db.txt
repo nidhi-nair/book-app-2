@@ -1,1 +1,1 @@
-select * from cars_db
+"select * from cars_db"

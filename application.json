@@ -1,4 +1,17 @@
 {
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationVersion": 2,
+  "color": "#C7F3E3",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "evaluationVersion": 2,
+  "icon": "book",
   "pages": [
     {
       "id": "Customer Data",
@@ -25,28 +38,20 @@
       "isDefault": false
     }
   ],
-  "appIsExample": false,
-  "unpublishedApplicationDetail": {
-    "navigationSetting": {
-      "showNavbar": true,
-      "orientation": "side",
-      "navStyle": "sidebar",
-      "position": "static",
-      "itemStyle": "text",
-      "colorStyle": "theme",
-      "logoAssetId": "",
-      "logoConfiguration": "logoAndApplicationTitle",
-      "showSignIn": true
-    }
-  },
-  "color": "#C7F3E3",
-  "icon": "book",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "appLayout": {
-    "type": "DESKTOP"
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
   }
 }

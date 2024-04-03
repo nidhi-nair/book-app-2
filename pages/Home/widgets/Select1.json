@@ -8,11 +8,11 @@
     "serverSideFiltering": false,
     "defaultOptionValue": "GREEN",
     "animateLoading": true,
-    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
+    "leftColumn": 0,
     "placeholderText": "Select option",
     "isDisabled": false,
     "isRequired": false,
@@ -28,30 +28,19 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "needsErrorInfo": false,
     "mobileBottomRow": 51,
-    "widgetName": "Select1",
     "isFilterable": true,
+    "widgetName": "Select1",
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "Select",
-    "searchTags": ["dropdown"],
     "bottomRow": 45,
+    "searchTags": ["dropdown"],
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 20,
     "parentColumnSpace": 17.9375,
+    "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "[\n  {\n    \"code\": \"GREEN\",\n    \"name\": \"Green\"\n  },\n\t{\n    \"code\": \"BLUE\",\n    \"name\": \"Blue\"\n  },\n  {\n    \"code\": \"RED\",\n    \"name\": \"Red\"\n  }\n]",
     "key": "bdbrkwr45u",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
@@ -61,8 +50,8 @@
     "minWidth": 450,
     "parentId": "0",
     "labelAlignment": "left",
-    "renderMode": "CANVAS",
     "mobileTopRow": 44,
+    "renderMode": "CANVAS",
     "optionLabel": "name",
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 0,

@@ -1,1 +1,1 @@
-{"text": {{this.params.message}}}
+"{\"text\": {{this.params.message}}}"

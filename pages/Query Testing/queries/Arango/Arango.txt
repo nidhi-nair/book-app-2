@@ -1,11 +1,1 @@
-UPDATE
-"{{ usersTable.selectedRow.id }}"
-WITH
-{
-    status: "APPROVED"
-}
-IN users
-
-// usersTable is an example table widget from where the id is being read. Replace it with your own Table widget or a
-// static value. To understand more please check out: https://docs.appsmith.com/core-concepts/capturing-data-write
-// Read more at https://www.arangodb.com/docs/stable/aql/
+"UPDATE\n\"{{ usersTable.selectedRow.id }}\"\nWITH\n{\n    status: \"APPROVED\"\n}\nIN users\n\n// usersTable is an example table widget from where the id is being read. Replace it with your own Table widget or a\n// static value. To understand more please check out: https://docs.appsmith.com/core-concepts/capturing-data-write\n// Read more at https://www.arangodb.com/docs/stable/aql/"

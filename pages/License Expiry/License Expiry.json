@@ -1,43 +1,29 @@
 {
-  "unpublishedPage": {
-    "name": "License Expiry",
-    "slug": "license-expiry",
-    "layouts": [
-      {
-        "viewMode": false,
-        "dsl": {
-          "widgetName": "MainContainer",
-          "backgroundColor": "none",
-          "rightColumn": 1224,
-          "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 720,
-          "containerStyle": "none",
-          "snapRows": 71,
-          "parentRowSpace": 1,
-          "type": "CANVAS_WIDGET",
-          "canExtend": true,
-          "version": 89,
-          "minHeight": 730,
-          "parentColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "License Expiry",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+  "gitSyncId" : "63c00ed3c727580240c84b23_65816d53379f475fe8dfab6a",
+  "unpublishedPage" : {
+    "layouts" : [ {
+      "dsl" : {
+        "backgroundColor" : "none",
+        "bottomRow" : 720,
+        "canExtend" : true,
+        "containerStyle" : "none",
+        "detachFromLayout" : true,
+        "dynamicBindingPathList" : [ ],
+        "leftColumn" : 0,
+        "minHeight" : 730,
+        "parentColumnSpace" : 1,
+        "parentRowSpace" : 1,
+        "rightColumn" : 1224,
+        "snapColumns" : 64,
+        "snapRows" : 71,
+        "topRow" : 0,
+        "type" : "CANVAS_WIDGET",
+        "version" : 89,
+        "widgetId" : "0",
+        "widgetName" : "MainContainer"
       }
-    ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_65816d53379f475fe8dfab6a"
+    } ],
+    "name" : "License Expiry",
+    "slug" : "license-expiry"
+  }
 }

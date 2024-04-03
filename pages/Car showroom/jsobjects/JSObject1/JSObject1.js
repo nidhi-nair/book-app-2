@@ -1,16 +1,1 @@
-export default {
-	myVar1: [],
-	myVar2: {},
-		getCarSalesRevenue: () => {
-		const arr = select_showroom_db.data.map(x => parseInt(x.selling_price))
-		return ((arr.reduce((a, b) => a + b, 0)))
-	},
-		search: () => {
-		if(Input1Copy.text.length==0){
-			return select_showroom_db.data
-		}
-		else{
-			return(select_showroom_db.data.filter(word => word.customer_name.toLowerCase().includes(Input1Copy.text.toLowerCase())))
-		}
-	}
-}
+"export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\t\tgetCarSalesRevenue: () => {\n\t\tconst arr = select_showroom_db.data.map(x => parseInt(x.selling_price))\n\t\treturn ((arr.reduce((a, b) => a + b, 0)))\n\t},\n\t\tsearch: () => {\n\t\tif(Input1Copy.text.length==0){\n\t\t\treturn select_showroom_db.data\n\t\t}\n\t\telse{\n\t\t\treturn(select_showroom_db.data.filter(word => word.customer_name.toLowerCase().includes(Input1Copy.text.toLowerCase())))\n\t\t}\n\t}\n}"

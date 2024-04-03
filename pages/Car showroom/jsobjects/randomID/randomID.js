@@ -1,10 +1,1 @@
-export default {
-	randomSalesID: () => {
-		console.log("random CustId" + this.randomCustomerID())
-		console.log("random SalesId")
-		return Math.ceil(Math.random() * (9999 -  + 1)) + 1;
-	},
-	randomCustomerID: () => {
-		return Math.ceil(Math.random() * (99999 -  + 1)) + 1;
-	} 
-}
+"export default {\n\trandomSalesID: () => {\n\t\tconsole.log(\"random CustId\" + this.randomCustomerID())\n\t\tconsole.log(\"random SalesId\")\n\t\treturn Math.ceil(Math.random() * (9999 -  + 1)) + 1;\n\t},\n\trandomCustomerID: () => {\n\t\treturn Math.ceil(Math.random() * (99999 -  + 1)) + 1;\n\t} \n}"

@@ -1,24 +1,20 @@
 {
-  "unpublishedCollection": {
-    "name": "JSObject2",
-    "pageId": "Car showroom",
-    "pluginId": "js-plugin",
-    "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [
-      {
-        "name": "myVar1",
-        "value": "[]"
-      },
-      {
-        "name": "myVar2",
-        "value": "{}"
-      }
-    ],
-    "userPermissions": []
-  },
-  "id": "Car showroom_JSObject2",
-  "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_65ae94e53402cc2577034d01"
+"id": "Car showroom_JSObject2",
+"gitSyncId": "63c00ed3c727580240c84b23_65ae94e53402cc2577034d01",
+"unpublishedCollection": {
+"name": "JSObject2",
+"pageId": "Car showroom",
+"pluginId": "js-plugin",
+"pluginType": "JS",
+"variables": [
+{
+"name": "myVar1",
+"value": "[]"
+},
+{
+"name": "myVar2",
+"value": "{}"
+}
+]
+}
 }

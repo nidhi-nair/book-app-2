@@ -1,15 +1,11 @@
 {
-  "unpublishedCollection": {
-    "name": "loan_application",
-    "pageId": "Home",
-    "pluginId": "js-plugin",
-    "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
-    "variables": [],
-    "userPermissions": []
-  },
-  "id": "Home_loan_application",
-  "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_6565be98f1d5f00cda453da8"
+"id": "Home_loan_application",
+"gitSyncId": "63c00ed3c727580240c84b23_6565be98f1d5f00cda453da8",
+"unpublishedCollection": {
+"name": "loan_application",
+"pageId": "Home",
+"pluginId": "js-plugin",
+"pluginType": "JS",
+"variables": []
+}
 }

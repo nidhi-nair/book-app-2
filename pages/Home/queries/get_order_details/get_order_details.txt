@@ -1,1 +1,3 @@
-"UPDATE users\n  SET status = 'APPROVED'\n  WHERE id = {{ usersTable.selectedRow.id }};\n"
+UPDATE users
+  SET status = 'APPROVED'
+  WHERE id = {{ usersTable.selectedRow.id }};

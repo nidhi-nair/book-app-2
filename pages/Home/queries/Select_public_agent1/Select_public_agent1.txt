@@ -1,1 +1,10 @@
-"SELECT\n  *\nFROM\n  public.agent\nWHERE\n  \"agent\" ilike '%{{Table1.searchText}}%' {{Table1.sortOrder.column ? \"ORDER BY \" + Table1.sortOrder.column + \"  \" + (Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\") : \"\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}"
+SELECT
+  *
+FROM
+  public.agent
+WHERE
+  "agent" ilike '%{{Table1.searchText}}%' {{Table1.sortOrder.column ? "ORDER BY " + Table1.sortOrder.column + "  " + (Table1.sortOrder.order !== "desc" ? "" : "DESC") : ""}}
+LIMIT
+  {{Table1.pageSize}}
+OFFSET
+  {{Table1.pageOffset}}

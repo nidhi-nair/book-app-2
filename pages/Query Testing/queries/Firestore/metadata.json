@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_Firestore",
   "gitSyncId": "63c00ed3c727580240c84b23_641b25dba8db493ee062ad9f",
+  "id": "Query Testing_Firestore",
   "pluginId": "firestore-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

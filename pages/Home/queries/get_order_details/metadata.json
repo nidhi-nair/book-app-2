@@ -1,6 +1,6 @@
 {
-  "id": "Home_get_order_details",
   "gitSyncId": "641a8da5a8db493ee062abbb_641b024da8db493ee062ad35",
+  "id": "Home_get_order_details",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_PostgreSQL",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2c1ba8db493ee062add0",
+  "id": "Query Testing_PostgreSQL",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_SMTP",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2cf2a8db493ee062adec",
+  "id": "Query Testing_SMTP",
   "pluginId": "smtp-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

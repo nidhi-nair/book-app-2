@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_Snowflake",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2f95a8db493ee062ae44",
+  "id": "Query Testing_Snowflake",
   "pluginId": "snowflake-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

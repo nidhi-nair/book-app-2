@@ -2,7 +2,7 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 52,
+  "bottomRow": 48,
   "boxShadow": "none",
   "defaultOptionValue": "GREEN",
   "displayName": "Select",
@@ -35,7 +35,7 @@
   "labelText": "Label",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 8,
+  "leftColumn": 5,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -52,7 +52,7 @@
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 28,
+  "rightColumn": 25,
   "searchTags": [
     "dropdown"
   ],
@@ -62,7 +62,7 @@
     "Suggested",
     "Select"
   ],
-  "topRow": 45,
+  "topRow": 41,
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "ygtdjiwwnd",

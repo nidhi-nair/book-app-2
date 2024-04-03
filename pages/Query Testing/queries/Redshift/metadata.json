@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_Redshift",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2f72a8db493ee062ae3a",
+  "id": "Query Testing_Redshift",
   "pluginId": "redshift-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

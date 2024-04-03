@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_Redis",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2f03a8db493ee062ae30",
+  "id": "Query Testing_Redis",
   "pluginId": "redis-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

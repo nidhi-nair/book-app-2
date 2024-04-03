@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_MS_SQL_SERVER",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2f56a8db493ee062ae35",
+  "id": "Query Testing_MS_SQL_SERVER",
   "pluginId": "mssql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

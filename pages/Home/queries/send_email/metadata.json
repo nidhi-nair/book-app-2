@@ -1,6 +1,6 @@
 {
-  "id": "Home_send_email",
   "gitSyncId": "63c00ed3c727580240c84b23_63f5cda01955ec5f25e32e88",
+  "id": "Home_send_email",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

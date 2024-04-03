@@ -1,6 +1,6 @@
 {
-  "id": "Car showroom_update_showroom_db",
   "gitSyncId": "63c00ed3c727580240c84b23_2023-02-24T05:34:24.767786341Z",
+  "id": "Car showroom_update_showroom_db",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

@@ -1,6 +1,6 @@
 {
-  "id": "Home_notify_employee",
   "gitSyncId": "63c00ed3c727580240c84b23_65bcb9b210e72a3b9aad8716",
+  "id": "Home_notify_employee",
   "pluginId": "smtp-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

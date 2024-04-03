@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_MYSQL",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2ed3a8db493ee062ae25",
+  "id": "Query Testing_MYSQL",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

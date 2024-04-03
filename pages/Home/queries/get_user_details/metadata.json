@@ -1,6 +1,6 @@
 {
-  "id": "Home_get_user_details",
   "gitSyncId": "63c00ed3c727580240c84b23_64d5c3a8637fa6506a2566a3",
+  "id": "Home_get_user_details",
   "pluginId": "dynamo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

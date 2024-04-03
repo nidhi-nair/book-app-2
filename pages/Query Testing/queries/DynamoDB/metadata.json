@@ -1,6 +1,6 @@
 {
-  "id": "Query Testing_DynamoDB",
   "gitSyncId": "63c00ed3c727580240c84b23_641b2e7ea8db493ee062ae19",
+  "id": "Query Testing_DynamoDB",
   "pluginId": "dynamo-plugin",
   "pluginType": "DB",
   "unpublishedAction": {

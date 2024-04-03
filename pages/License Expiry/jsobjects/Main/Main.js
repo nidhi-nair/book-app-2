@@ -1,1 +1,25 @@
-"export default {\n\texecuteWorkflow: async (payload) => {\n\t\tconst data = Constants.data;\n\t\tconst status = this.licenseStatus(data)\n\t\tconst user = data.data.attributes.name;\n\t\tconsole.log(user)\n\t\tif (status == \"EXPIRED\") {\n\t\t\tconsole.log(\"expired\")\n\t\t\tsend_message.run({\"message\": user + \"'s license has expired.\"});\n\t\t} else if (status == \"EXPIRING-SOON\") {\n\t\t\tsend_message.run({\"message\": user + \"'s license is expiring soon.\"});\n\t\t} else {\n\t\t\treturn\n\t\t}\n\n\t\treturn user\n\t},\n\n\tlicenseStatus: (data) => {\n\t\tconsole.log(\"license status\");\n\t\treturn data.data.attributes.status;\n\t}\n\n}\n\n"
+export default {
+	executeWorkflow: async (payload) => {
+		const data = Constants.data;
+		const status = this.licenseStatus(data)
+		const user = data.data.attributes.name;
+		console.log(user)
+		if (status == "EXPIRED") {
+			console.log("expired")
+			send_message.run({"message": user + "'s license has expired."});
+		} else if (status == "EXPIRING-SOON") {
+			send_message.run({"message": user + "'s license is expiring soon."});
+		} else {
+			return
+		}
+
+		return user
+	},
+
+	licenseStatus: (data) => {
+		console.log("license status");
+		return data.data.attributes.status;
+	}
+
+}
+

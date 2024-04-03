@@ -1,1 +1,99 @@
-"export default {\n\texecuteWorkflow: async (data) => {\n\t\t\n\t\tawait create_new_application.run(data);\n\t\t\n\t\tif (collectDocuments() == \"collected\") {\n\t\t\thandleKYCResolution()\n\t\t} else {\n\t\t\t// Add code to update application and end workflow\n\t\t}\n\t\t\n\t\tfunction handleKYCResolution() {\n\t\t\tif (kycApproval() == \"approved\") {\n\t\t\t\thandleCreditResolution()\n\t\t\t} else if (kycApproval() == \"need_more_documents\") {\n\t\t\t\t\n\t\t\t} else {\n\t\t\t\t// Add code to update application and end workflow\n\t\t\t}\n\t\t}\n\t\t\n\t\tfunction handleCreditResolution() {\n\t\t\tif (creditApproval() == \"approved\") {\n\t\t\t\t\tif (loanSacntion() == \"approved\") {\n\t\t\t\t\t\tupdate_application.run({\"status\": \"Approved\"})\n\t\t\t\t\t} else {\n\t\t\t\t\t\t// Add code to update application and end workflow\n\t\t\t\t\t}\n\t\t\t\t} else if (creditApproval() == \"need_more_documents\") {\n\n\t\t\t\t} else {\n\n\t\t\t\t}\n\t\t}\n\t\t\n\t\t\n\t\tfunction collectDocuments() {\n\t\t\tconst resolution = main.executeWorkflow({\n\t\t\t\t\"requestToUsers\": [ \n\t\t\t\t\t \"collection_agent@bank.com\"\n\t\t\t\t],\n\t\t\t\t\"message\": \"Collect documents for loan at the address #{{data.communication_address}}\",\n\t\t\t\t\"name\": \"Documents Collection\",\n\t\t\t\t\"allowedResolutions\": [\n\t\t\t\t\t\t\"collected\",\n\t\t\t\t\t\t\"not_collected\"\n\t\t\t\t]}\n\t\t\t)\n\t\t\treturn resolution;\n\t\t}\n\t\t\n\t\tfunction kycApproval() {\n\t\t\tconst resolution = main.executeWorkflow({\n\t\t\t\t\"requestToGroups\": [ \n\t\t\t\t\t \"KYC Team\"\n\t\t\t\t],\n\t\t\t\t\"message\": \"Requesting KYC verification for loan application #\",\n\t\t\t\t\"name\": \"KYC Approval\",\n\t\t\t\t\"allowedResolutions\": [\n\t\t\t\t\t\t\"approved\",\n\t\t\t\t\t\t\"rejected\",\n\t\t\t\t\t\t\"need_more_documents\"\n\t\t\t\t]}\n\t\t\t)\n\t\t\treturn resolution;\n\t\t}\n\t\t\t\n\t\tfunction creditApproval() {\n\t\t\tconst resolution = main.executeWorkflow({\n\t\t\t\t\"requestToGroups\": [ \n\t\t\t\t\t \"Credit Team\"\n\t\t\t\t],\n\t\t\t\t\"message\": \"Requesting KYC verification for loan application #\",\n\t\t\t\t\"name\": \"Credit Approval\",\n\t\t\t\t\"allowedResolutions\": [\n\t\t\t\t\t\t\"approved\",\n\t\t\t\t\t\t\"rejected\",\n\t\t\t\t\t\t\"need_more_documents\"\n\t\t\t\t]}\n\t\t\t)\n\t\t\treturn resolution;\n\t\t}\n\t\t\n\t\tfunction loanSacntion() {\n\t\t\tconst resolution = main.executeWorkflow({\n\t\t\t\t\"requestToGroups\": [ \n\t\t\t\t\t \"manager_branch_name@bank.com\"\n\t\t\t\t],\n\t\t\t\t\"message\": \"Requesting KYC verification for loan application #\",\n\t\t\t\t\"name\": \"Sanction Loan\",\n\t\t\t\t\"allowedResolutions\": [\n\t\t\t\t\t\t\"approved\",\n\t\t\t\t\t\t\"rejected\"\n\t\t\t\t]}\n\t\t\t)\n\t\t\treturn resolution;\n\t\t}\n\t}\n}"
+export default {
+	executeWorkflow: async (data) => {
+		
+		await create_new_application.run(data);
+		
+		if (collectDocuments() == "collected") {
+			handleKYCResolution()
+		} else {
+			// Add code to update application and end workflow
+		}
+		
+		function handleKYCResolution() {
+			if (kycApproval() == "approved") {
+				handleCreditResolution()
+			} else if (kycApproval() == "need_more_documents") {
+				
+			} else {
+				// Add code to update application and end workflow
+			}
+		}
+		
+		function handleCreditResolution() {
+			if (creditApproval() == "approved") {
+					if (loanSacntion() == "approved") {
+						update_application.run({"status": "Approved"})
+					} else {
+						// Add code to update application and end workflow
+					}
+				} else if (creditApproval() == "need_more_documents") {
+
+				} else {
+
+				}
+		}
+		
+		
+		function collectDocuments() {
+			const resolution = main.executeWorkflow({
+				"requestToUsers": [ 
+					 "collection_agent@bank.com"
+				],
+				"message": "Collect documents for loan at the address #{{data.communication_address}}",
+				"name": "Documents Collection",
+				"allowedResolutions": [
+						"collected",
+						"not_collected"
+				]}
+			)
+			return resolution;
+		}
+		
+		function kycApproval() {
+			const resolution = main.executeWorkflow({
+				"requestToGroups": [ 
+					 "KYC Team"
+				],
+				"message": "Requesting KYC verification for loan application #",
+				"name": "KYC Approval",
+				"allowedResolutions": [
+						"approved",
+						"rejected",
+						"need_more_documents"
+				]}
+			)
+			return resolution;
+		}
+			
+		function creditApproval() {
+			const resolution = main.executeWorkflow({
+				"requestToGroups": [ 
+					 "Credit Team"
+				],
+				"message": "Requesting KYC verification for loan application #",
+				"name": "Credit Approval",
+				"allowedResolutions": [
+						"approved",
+						"rejected",
+						"need_more_documents"
+				]}
+			)
+			return resolution;
+		}
+		
+		function loanSacntion() {
+			const resolution = main.executeWorkflow({
+				"requestToGroups": [ 
+					 "manager_branch_name@bank.com"
+				],
+				"message": "Requesting KYC verification for loan application #",
+				"name": "Sanction Loan",
+				"allowedResolutions": [
+						"approved",
+						"rejected"
+				]}
+			)
+			return resolution;
+		}
+	}
+}

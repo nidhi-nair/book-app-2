@@ -1,1 +1,12 @@
-"export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\t\tsearch: () => {\n\t\tif(Input1Copy.text.length==0){\n\t\t\treturn select_repair_db.data\n\t\t}\n\t\telse{\n\t\t\treturn(select_repair_db.data.filter(word => word.cust_name.toLowerCase().includes(Input1Copy.text.toLowerCase())))\n\t\t}\n\t},\n}"
+export default {
+	myVar1: [],
+	myVar2: {},
+		search: () => {
+		if(Input1Copy.text.length==0){
+			return select_repair_db.data
+		}
+		else{
+			return(select_repair_db.data.filter(word => word.cust_name.toLowerCase().includes(Input1Copy.text.toLowerCase())))
+		}
+	},
+}

@@ -1,1 +1,75 @@
-"export default {\n  async executeWorkflow(data) {\n    const { employee_id, employee_name, employee_email, quarter } = data;\n\t\tlet submissions = [];\n    let reviews = [];\n\n    try {\n      await notify_employee.run({ \"status\": `Pending on ${employee_name}`, \"quarter\": quarter });\n\n      const submission = await appsmith.workflows.assignRequest({\n        \"requestName\": \"Quarterly Compliance Submission\",\n        \"requestToUsers\": [employee_email],\n        \"metadata\": { \"status\": `Pending on ${employee_name}`, \"quarter\": quarter },\n        \"allowedResolutions\": [\"Submit\"]\n      });\n\t\t\tsubmissions.push(submission.metadata)\n\n      const review = await this.review_request(submission);\n      this.handleReviewOutcome(review);\n\t\t\t\t\n\t\t\tawait update_compliance_db.run({\"data\": data, \"submissions\": submissions, \"reviews\": reviews})\n\t\t\treturn true;\n    } catch (error) {\n      console.error(\"Error executing workflow:\", error);\n\t\t\tthrow error;\n    }\n  }\n}\n\nasync function review_request(submissions, reviews) {\n  try {\n    const review = await appsmith.workflows.assignRequest({\n      \"requestName\": \"Quarterly Compliance Review\",\n      \"requestToGroups\": [\"Compliance Team\"],\n      \"metadata\": { \"submissions\": submissions },\n      \"allowedResolutions\": [\"Passed Compliance\", \"Failed Compliance\", \"Request More Information\"]\n    });\n\t\treviews.push(review)\n\t\t\n    if (review.resolution === \"Request More Information\") {\n      return await more_information_request(review);\n    }\n\n    return review;\n  } catch (error) {\n    console.error(\"Error in review request:\", error);\n    throw error;\n  }\n}\n\nasync function more_information_request(submissions, reviews) {\n  try {\n\t\tawait notify_employee.run({ \"status\": \"Additional Information Requested\", \"quarter\": quarter });\n    const informationRequest = await appsmith.workflows.assignRequest({\n      \"requestName\": \"Compliance Additional Information\",\n      \"requestToGroups\": [employee_email],\n      \"metadata\": { \"reviews\": reviews },\n      \"allowedResolutions\": [\"Submit\"]\n    });\n\t\tsubmissions.push(informationRequest.metadata)\n\n    return await review_request(informationRequest);\n  } catch (error) {\n    console.error(\"Error in more information request:\", error);\n    throw error;\n  }\n}\n\nasync function handleReviewOutcome(review) {\n  if (review.resolution === \"Passed Compliance\") {\n    await notify_employee.run({ \"status\": \"Passed Compliance\", \"quarter\": quarter })\n  } else if (review.resolution === \"Failed Compliance\") {\n    await notify_employee.run({ \"status\": \"Failed Compliance\", \"quarter\": quarter })\n  }\n}\n"
+export default {
+  async executeWorkflow(data) {
+    const { employee_id, employee_name, employee_email, quarter } = data;
+		let submissions = [];
+    let reviews = [];
+
+    try {
+      await notify_employee.run({ "status": `Pending on ${employee_name}`, "quarter": quarter });
+
+      const submission = await appsmith.workflows.assignRequest({
+        "requestName": "Quarterly Compliance Submission",
+        "requestToUsers": [employee_email],
+        "metadata": { "status": `Pending on ${employee_name}`, "quarter": quarter },
+        "allowedResolutions": ["Submit"]
+      });
+			submissions.push(submission.metadata)
+
+      const review = await this.review_request(submission);
+      this.handleReviewOutcome(review);
+				
+			await update_compliance_db.run({"data": data, "submissions": submissions, "reviews": reviews})
+			return true;
+    } catch (error) {
+      console.error("Error executing workflow:", error);
+			throw error;
+    }
+  }
+}
+
+async function review_request(submissions, reviews) {
+  try {
+    const review = await appsmith.workflows.assignRequest({
+      "requestName": "Quarterly Compliance Review",
+      "requestToGroups": ["Compliance Team"],
+      "metadata": { "submissions": submissions },
+      "allowedResolutions": ["Passed Compliance", "Failed Compliance", "Request More Information"]
+    });
+		reviews.push(review)
+		
+    if (review.resolution === "Request More Information") {
+      return await more_information_request(review);
+    }
+
+    return review;
+  } catch (error) {
+    console.error("Error in review request:", error);
+    throw error;
+  }
+}
+
+async function more_information_request(submissions, reviews) {
+  try {
+		await notify_employee.run({ "status": "Additional Information Requested", "quarter": quarter });
+    const informationRequest = await appsmith.workflows.assignRequest({
+      "requestName": "Compliance Additional Information",
+      "requestToGroups": [employee_email],
+      "metadata": { "reviews": reviews },
+      "allowedResolutions": ["Submit"]
+    });
+		submissions.push(informationRequest.metadata)
+
+    return await review_request(informationRequest);
+  } catch (error) {
+    console.error("Error in more information request:", error);
+    throw error;
+  }
+}
+
+async function handleReviewOutcome(review) {
+  if (review.resolution === "Passed Compliance") {
+    await notify_employee.run({ "status": "Passed Compliance", "quarter": quarter })
+  } else if (review.resolution === "Failed Compliance") {
+    await notify_employee.run({ "status": "Failed Compliance", "quarter": quarter })
+  }
+}

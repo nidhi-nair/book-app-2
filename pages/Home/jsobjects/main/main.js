@@ -1,1 +1,8 @@
-"export default {\n\tasync executeWorkflow() {\n\t\t// Orchestrate your workflow below\n\t\tconsole.log(\"Hello World 👋\")\n\t\treturn true;\n\t\t\n\t}\n}"
+export default {
+	async executeWorkflow() {
+		// Orchestrate your workflow below
+		console.log("Hello World 👋")
+		return true;
+		
+	}
+}

@@ -1,11 +1,11 @@
 {
-"gitSyncId": "63c00ed3c727580240c84b23_65816d63379f475fe8dfab75",
-"id": "License Expiry_Main",
-"unpublishedCollection": {
-"name": "Main",
-"pageId": "License Expiry",
-"pluginId": "js-plugin",
-"pluginType": "JS",
-"variables": []
-}
+  "gitSyncId": "63c00ed3c727580240c84b23_65816d63379f475fe8dfab75",
+  "id": "License Expiry_Main",
+  "unpublishedCollection": {
+    "name": "Main",
+    "pageId": "License Expiry",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
 }

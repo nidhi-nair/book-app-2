@@ -8,10 +8,12 @@
       "body" : "UPDATE users\n  SET status = 'APPROVED'\n  WHERE id = {{ usersTable.selectedRow.id }};\n",
       "encodeParamsToggle" : true,
       "paginationType" : "NONE",
-      "pluginSpecifiedTemplates" : [ {
-        "value" : true
-      } ],
-      "selfReferencingDataPaths" : [ ],
+      "pluginSpecifiedTemplates" : [
+        {
+          "value" : true
+        }
+      ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,
@@ -21,9 +23,11 @@
       "name" : "Mock Database",
       "pluginId" : "postgres-plugin"
     },
-    "dynamicBindingPathList" : [ {
-      "key" : "body"
-    } ],
+    "dynamicBindingPathList" : [
+      {
+        "key" : "body"
+      }
+    ],
     "executeOnLoad" : false,
     "name" : "get_order_details",
     "pageId" : "Home",

@@ -30,37 +30,57 @@
       "menuColor" : "{{appsmith.theme.colors.primaryColor}}"
     }
   },
-  "columnOrder" : [ "agent", "customColumn1", "customColumn4", "customColumn2", "customColumn3" ],
+  "columnOrder" : [
+    "agent",
+    "customColumn1",
+    "customColumn4",
+    "customColumn2",
+    "customColumn3"
+  ],
   "columnUpdatedAt" : 1712139290671,
-  "columnWidthMap" : { },
+  "columnWidthMap" : {},
   "defaultPageSize" : 0,
   "defaultSelectedRowIndex" : 0,
-  "defaultSelectedRowIndices" : [ 0 ],
+  "defaultSelectedRowIndices" : [
+    0
+  ],
   "delimiter" : ",",
   "displayName" : "Table",
-  "dynamicBindingPathList" : [ {
-    "key" : "accentColor"
-  }, {
-    "key" : "borderRadius"
-  }, {
-    "key" : "boxShadow"
-  }, {
-    "key" : "tableData"
-  }, {
-    "key" : "totalRecordsCount"
-  }, {
-    "key" : "primaryColumns.agent.computedValue"
-  }, {
-    "key" : "primaryColumns.customColumn1.menuColor"
-  } ],
-  "dynamicPropertyPathList" : [ ],
-  "dynamicTriggerPathList" : [ {
-    "key" : "onPageChange"
-  }, {
-    "key" : "onSearchTextChanged"
-  }, {
-    "key" : "onSort"
-  } ],
+  "dynamicBindingPathList" : [
+    {
+      "key" : "accentColor"
+    },
+    {
+      "key" : "borderRadius"
+    },
+    {
+      "key" : "boxShadow"
+    },
+    {
+      "key" : "tableData"
+    },
+    {
+      "key" : "totalRecordsCount"
+    },
+    {
+      "key" : "primaryColumns.agent.computedValue"
+    },
+    {
+      "key" : "primaryColumns.customColumn1.menuColor"
+    }
+  ],
+  "dynamicPropertyPathList" : [],
+  "dynamicTriggerPathList" : [
+    {
+      "key" : "onPageChange"
+    },
+    {
+      "key" : "onSearchTextChanged"
+    },
+    {
+      "key" : "onSort"
+    }
+  ],
   "enableClientSideSearch" : false,
   "flexVerticalAlignment" : "start",
   "hideCard" : false,
@@ -118,7 +138,7 @@
       "sticky" : "",
       "textSize" : "0.875rem",
       "thousandSeparator" : true,
-      "validation" : { },
+      "validation" : {},
       "verticalAlignment" : "CENTER",
       "width" : 150
     },
@@ -173,7 +193,7 @@
       "sticky" : "",
       "textSize" : "0.875rem",
       "thousandSeparator" : true,
-      "validation" : { },
+      "validation" : {},
       "verticalAlignment" : "CENTER",
       "width" : 150
     },
@@ -206,7 +226,7 @@
       "sticky" : "",
       "textSize" : "0.875rem",
       "thousandSeparator" : true,
-      "validation" : { },
+      "validation" : {},
       "verticalAlignment" : "CENTER",
       "width" : 150
     },
@@ -239,7 +259,7 @@
       "sticky" : "",
       "textSize" : "0.875rem",
       "thousandSeparator" : true,
-      "validation" : { },
+      "validation" : {},
       "verticalAlignment" : "CENTER",
       "width" : 150
     },
@@ -272,7 +292,7 @@
       "sticky" : "",
       "textSize" : "0.875rem",
       "thousandSeparator" : true,
-      "validation" : { },
+      "validation" : {},
       "verticalAlignment" : "CENTER",
       "width" : 150
     }
@@ -283,7 +303,10 @@
   "searchKey" : "",
   "serverSidePaginationEnabled" : true,
   "tableData" : "{{Select_public_agent1.data}}",
-  "tags" : [ "Suggested", "Display" ],
+  "tags" : [
+    "Suggested",
+    "Display"
+  ],
   "textSize" : "0.875rem",
   "topRow" : 2,
   "totalRecordsCount" : "{{Total_record_public_agent1.data[0].count}}",

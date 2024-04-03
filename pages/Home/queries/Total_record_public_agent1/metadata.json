@@ -8,10 +8,12 @@
       "body" : "SELECT COUNT(*) from public.agent where agent ilike '%{{Table1.searchText}}%';",
       "encodeParamsToggle" : true,
       "paginationType" : "NONE",
-      "pluginSpecifiedTemplates" : [ {
-        "value" : false
-      } ],
-      "selfReferencingDataPaths" : [ ],
+      "pluginSpecifiedTemplates" : [
+        {
+          "value" : false
+        }
+      ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,
@@ -21,9 +23,11 @@
       "name" : "Mock_DB",
       "pluginId" : "postgres-plugin"
     },
-    "dynamicBindingPathList" : [ {
-      "key" : "body"
-    } ],
+    "dynamicBindingPathList" : [
+      {
+        "key" : "body"
+      }
+    ],
     "executeOnLoad" : true,
     "name" : "Total_record_public_agent1",
     "pageId" : "Home",

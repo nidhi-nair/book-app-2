@@ -12,25 +12,32 @@
   },
   "evaluationVersion" : 2,
   "icon" : "book",
-  "pages" : [ {
-    "id" : "Customer Data",
-    "isDefault" : false
-  }, {
-    "id" : "Car servicing",
-    "isDefault" : false
-  }, {
-    "id" : "Car showroom",
-    "isDefault" : false
-  }, {
-    "id" : "Home",
-    "isDefault" : true
-  }, {
-    "id" : "Query Testing",
-    "isDefault" : false
-  }, {
-    "id" : "License Expiry",
-    "isDefault" : false
-  } ],
+  "pages" : [
+    {
+      "id" : "Customer Data",
+      "isDefault" : false
+    },
+    {
+      "id" : "Car servicing",
+      "isDefault" : false
+    },
+    {
+      "id" : "Car showroom",
+      "isDefault" : false
+    },
+    {
+      "id" : "Home",
+      "isDefault" : true
+    },
+    {
+      "id" : "Query Testing",
+      "isDefault" : false
+    },
+    {
+      "id" : "License Expiry",
+      "isDefault" : false
+    }
+  ],
   "unpublishedAppLayout" : {
     "type" : "DESKTOP"
   },

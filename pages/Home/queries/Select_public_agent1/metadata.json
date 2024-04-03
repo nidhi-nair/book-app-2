@@ -8,10 +8,12 @@
       "body" : "SELECT\n  *\nFROM\n  public.agent\nWHERE\n  \"agent\" ilike '%{{Table1.searchText}}%' {{Table1.sortOrder.column ? \"ORDER BY \" + Table1.sortOrder.column + \"  \" + (Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\") : \"\"}}\nLIMIT\n  {{Table1.pageSize}}\nOFFSET\n  {{Table1.pageOffset}}",
       "encodeParamsToggle" : true,
       "paginationType" : "NONE",
-      "pluginSpecifiedTemplates" : [ {
-        "value" : false
-      } ],
-      "selfReferencingDataPaths" : [ ],
+      "pluginSpecifiedTemplates" : [
+        {
+          "value" : false
+        }
+      ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,
@@ -21,9 +23,11 @@
       "name" : "Mock_DB",
       "pluginId" : "postgres-plugin"
     },
-    "dynamicBindingPathList" : [ {
-      "key" : "body"
-    } ],
+    "dynamicBindingPathList" : [
+      {
+        "key" : "body"
+      }
+    ],
     "executeOnLoad" : true,
     "name" : "Select_public_agent1",
     "pageId" : "Home",

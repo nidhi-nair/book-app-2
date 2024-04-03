@@ -8,10 +8,12 @@
       "body" : "",
       "encodeParamsToggle" : true,
       "paginationType" : "NONE",
-      "pluginSpecifiedTemplates" : [ {
-        "value" : true
-      } ],
-      "selfReferencingDataPaths" : [ ],
+      "pluginSpecifiedTemplates" : [
+        {
+          "value" : true
+        }
+      ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,

@@ -8,10 +8,12 @@
       "body" : "SELECT * FROM \"users\"",
       "encodeParamsToggle" : true,
       "paginationType" : "NONE",
-      "pluginSpecifiedTemplates" : [ {
-        "value" : true
-      } ],
-      "selfReferencingDataPaths" : [ ],
+      "pluginSpecifiedTemplates" : [
+        {
+          "value" : true
+        }
+      ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,
@@ -21,7 +23,7 @@
       "name" : "Users",
       "pluginId" : "postgres-plugin"
     },
-    "dynamicBindingPathList" : [ ],
+    "dynamicBindingPathList" : [],
     "executeOnLoad" : false,
     "name" : "Query1",
     "pageId" : "Home",

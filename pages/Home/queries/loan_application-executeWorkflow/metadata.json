@@ -6,11 +6,13 @@
   "unpublishedAction" : {
     "actionConfiguration" : {
       "encodeParamsToggle" : true,
-      "jsArguments" : [ {
-        "name" : "data"
-      } ],
+      "jsArguments" : [
+        {
+          "name" : "data"
+        }
+      ],
       "paginationType" : "NONE",
-      "selfReferencingDataPaths" : [ ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "collectionId" : "Home_loan_application",
@@ -20,9 +22,11 @@
       "name" : "UNUSED_DATASOURCE",
       "pluginId" : "js-plugin"
     },
-    "dynamicBindingPathList" : [ {
-      "key" : "body"
-    } ],
+    "dynamicBindingPathList" : [
+      {
+        "key" : "body"
+      }
+    ],
     "executeOnLoad" : false,
     "fullyQualifiedName" : "loan_application.executeWorkflow",
     "name" : "executeWorkflow",

@@ -6,31 +6,39 @@
   "unpublishedAction" : {
     "actionConfiguration" : {
       "body" : "",
-      "bodyFormData" : [ ],
+      "bodyFormData" : [],
       "encodeParamsToggle" : true,
       "formData" : {
         "apiContentType" : "none"
       },
-      "headers" : [ {
-        "key" : "",
-        "value" : ""
-      }, {
-        "key" : "",
-        "value" : ""
-      } ],
+      "headers" : [
+        {
+          "key" : "",
+          "value" : ""
+        },
+        {
+          "key" : "",
+          "value" : ""
+        }
+      ],
       "httpMethod" : "GET",
       "paginationType" : "NONE",
-      "pluginSpecifiedTemplates" : [ {
-        "value" : true
-      } ],
-      "queryParameters" : [ {
-        "key" : "",
-        "value" : ""
-      }, {
-        "key" : "",
-        "value" : ""
-      } ],
-      "selfReferencingDataPaths" : [ ],
+      "pluginSpecifiedTemplates" : [
+        {
+          "value" : true
+        }
+      ],
+      "queryParameters" : [
+        {
+          "key" : "",
+          "value" : ""
+        },
+        {
+          "key" : "",
+          "value" : ""
+        }
+      ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,

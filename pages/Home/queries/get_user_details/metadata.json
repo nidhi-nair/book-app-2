@@ -9,7 +9,7 @@
       "encodeParamsToggle" : true,
       "paginationType" : "NONE",
       "path" : "GetItem",
-      "selfReferencingDataPaths" : [ ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "confirmBeforeExecute" : false,
@@ -19,7 +19,7 @@
       "name" : "DynamoDB",
       "pluginId" : "dynamo-plugin"
     },
-    "dynamicBindingPathList" : [ ],
+    "dynamicBindingPathList" : [],
     "executeOnLoad" : false,
     "name" : "get_user_details",
     "pageId" : "Home",

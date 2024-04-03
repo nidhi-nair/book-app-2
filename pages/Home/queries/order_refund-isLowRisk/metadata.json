@@ -6,13 +6,16 @@
   "unpublishedAction" : {
     "actionConfiguration" : {
       "encodeParamsToggle" : true,
-      "jsArguments" : [ {
-        "name" : "orderDetails"
-      }, {
-        "name" : "userDetails"
-      } ],
+      "jsArguments" : [
+        {
+          "name" : "orderDetails"
+        },
+        {
+          "name" : "userDetails"
+        }
+      ],
       "paginationType" : "NONE",
-      "selfReferencingDataPaths" : [ ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "collectionId" : "Home_order_refund",
@@ -22,9 +25,11 @@
       "name" : "UNUSED_DATASOURCE",
       "pluginId" : "js-plugin"
     },
-    "dynamicBindingPathList" : [ {
-      "key" : "body"
-    } ],
+    "dynamicBindingPathList" : [
+      {
+        "key" : "body"
+      }
+    ],
     "executeOnLoad" : false,
     "fullyQualifiedName" : "order_refund.isLowRisk",
     "name" : "isLowRisk",

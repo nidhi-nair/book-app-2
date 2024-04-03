@@ -6,9 +6,9 @@
   "unpublishedAction" : {
     "actionConfiguration" : {
       "encodeParamsToggle" : true,
-      "jsArguments" : [ ],
+      "jsArguments" : [],
       "paginationType" : "NONE",
-      "selfReferencingDataPaths" : [ ],
+      "selfReferencingDataPaths" : [],
       "timeoutInMillisecond" : 10000
     },
     "collectionId" : "Home_main",
@@ -18,9 +18,11 @@
       "name" : "UNUSED_DATASOURCE",
       "pluginId" : "js-plugin"
     },
-    "dynamicBindingPathList" : [ {
-      "key" : "body"
-    } ],
+    "dynamicBindingPathList" : [
+      {
+        "key" : "body"
+      }
+    ],
     "executeOnLoad" : false,
     "fullyQualifiedName" : "main.executeWorkflow",
     "name" : "executeWorkflow",

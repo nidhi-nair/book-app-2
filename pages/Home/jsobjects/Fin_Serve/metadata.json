@@ -1,11 +1,11 @@
 {
-  "id": "Home_Fin_Serve",
-  "gitSyncId": "63c00ed3c727580240c84b23_65bcb83c10e72a3b9aad86e9",
-  "unpublishedCollection": {
-    "name": "Fin_Serve",
-    "pageId": "Home",
-    "pluginId": "js-plugin",
-    "pluginType": "JS",
-    "variables": []
+  "id" : "Home_Fin_Serve",
+  "gitSyncId" : "63c00ed3c727580240c84b23_65bcb83c10e72a3b9aad86e9",
+  "unpublishedCollection" : {
+    "name" : "Fin_Serve",
+    "pageId" : "Home",
+    "pluginId" : "js-plugin",
+    "pluginType" : "JS",
+    "variables" : [ ]
   }
 }

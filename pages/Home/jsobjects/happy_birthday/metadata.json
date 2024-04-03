@@ -1,1 +1,11 @@
-{"id":"Home_happy_birthday","gitSyncId":"63c00ed3c727580240c84b23_655f4e4589418f308fa4a791","unpublishedCollection":{"name":"happy_birthday","pageId":"Home","pluginId":"js-plugin","pluginType":"JS","variables":[]}}
+{
+  "id": "Home_happy_birthday",
+  "gitSyncId": "63c00ed3c727580240c84b23_655f4e4589418f308fa4a791",
+  "unpublishedCollection": {
+    "name": "happy_birthday",
+    "pageId": "Home",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

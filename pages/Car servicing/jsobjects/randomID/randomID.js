@@ -1,8 +1,1 @@
-export default {
-	randomSalesID: () => {
-    return Math.ceil(Math.random() * (9999 -  + 1)) + 1;
-},
-	randomCustomerID: () => {
-    return Math.ceil(Math.random() * (99999 -  + 1)) + 1;
-} 
-	}
+"export default {\n\trandomSalesID: () => {\n    return Math.ceil(Math.random() * (9999 -  + 1)) + 1;\n},\n\trandomCustomerID: () => {\n    return Math.ceil(Math.random() * (99999 -  + 1)) + 1;\n} \n\t}"

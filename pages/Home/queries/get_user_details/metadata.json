@@ -9,7 +9,6 @@
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "path": "GetItem",
-      "selfReferencingDataPaths": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,

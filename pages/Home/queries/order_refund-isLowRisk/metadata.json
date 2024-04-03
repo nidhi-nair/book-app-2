@@ -15,7 +15,6 @@
         }
       ],
       "paginationType": "NONE",
-      "selfReferencingDataPaths": [],
       "timeoutInMillisecond": 10000
     },
     "collectionId": "Home_order_refund",

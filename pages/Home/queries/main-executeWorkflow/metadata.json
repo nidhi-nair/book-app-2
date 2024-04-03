@@ -8,7 +8,6 @@
       "encodeParamsToggle": true,
       "jsArguments": [],
       "paginationType": "NONE",
-      "selfReferencingDataPaths": [],
       "timeoutInMillisecond": 10000
     },
     "collectionId": "Home_main",

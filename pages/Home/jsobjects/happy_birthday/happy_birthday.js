@@ -3,7 +3,7 @@ export default {
 	// Orchestrate your workflow below
 	executeWorkflow : (data) => {    
 		/*
-		Let's wish our friends Happy Birthday!
+		Let's wish our friends Happy Birthday! 
 
 		// You can call Appsmith queries directly
     employees = await fetch_employees.run(); 

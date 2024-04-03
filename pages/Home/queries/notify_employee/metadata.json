@@ -13,7 +13,6 @@
         }
       },
       "paginationType": "NONE",
-      "selfReferencingDataPaths": [],
       "timeoutInMillisecond": 10000
     },
     "confirmBeforeExecute": false,

@@ -1,10 +1,10 @@
 {
+  "gitSyncId": "63c00ed3c727580240c84b23_63f84c602ea612208e11cb33",
   "unpublishedPage": {
     "name": "Car showroom",
     "slug": "car-showroom",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
@@ -24,51 +24,8 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Car showroom_select_salesperson",
-              "name": "select_salesperson",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Car showroom_select_showroom_db",
-              "name": "select_showroom_db",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(List.pageNo - 1) * 5"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Car showroom_select_car_db",
-              "name": "select_car_db",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Car showroom",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+        }
       }
-    ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "63c00ed3c727580240c84b23_63f84c602ea612208e11cb33"
+    ]
+  }
 }

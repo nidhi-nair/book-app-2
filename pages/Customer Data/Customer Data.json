@@ -1,10 +1,10 @@
 {
+  "gitSyncId": "641a8da5a8db493ee062abbb_641af079a8db493ee062aca5",
   "unpublishedPage": {
     "name": "Customer Data",
     "slug": "customer-data",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
@@ -25,37 +25,8 @@
           "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Customer Data_FindQuery",
-              "name": "FindQuery",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "key_select.selectedOptionValue",
-                "data_table.pageSize",
-                "data_table.searchText||\"\"",
-                "order_select.selectedOptionValue",
-                "(data_table.pageNo - 1) * data_table.pageSize"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Customer Data",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+        }
       }
-    ],
-    "userPermissions": [],
-    "policies": [],
-    "isHidden": false
-  },
-  "deleted": false,
-  "gitSyncId": "641a8da5a8db493ee062abbb_641af079a8db493ee062aca5"
+    ]
+  }
 }

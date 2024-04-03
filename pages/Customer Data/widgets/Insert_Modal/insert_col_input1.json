@@ -1,37 +1,37 @@
 {
-  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "borderRadius": "0px",
-  "bottomRow": 14,
-  "boxShadow": "none",
-  "defaultText": "c{{Math.floor(Math.random()*10000)}}",
-  "dynamicBindingPathList": [
-    {
-      "key": "defaultText"
-    },
-    {
-      "key": "accentColor"
-    }
-  ],
-  "dynamicTriggerPathList": [],
-  "inputType": "TEXT",
-  "isDisabled": false,
-  "isLoading": false,
-  "isRequired": true,
-  "isVisible": "true",
-  "label": "CustomerID:",
-  "labelStyle": "BOLD",
-  "labelTextSize": "0.875rem",
-  "leftColumn": 3,
-  "parentColumnSpace": 7.6865234375,
-  "parentId": "9rhv3ioohq",
-  "parentRowSpace": 10,
-  "placeholderText": "CustomerID",
-  "resetOnSubmit": true,
-  "rightColumn": 41,
-  "topRow": 8,
-  "type": "INPUT_WIDGET",
-  "validation": "true",
-  "version": 1,
-  "widgetId": "h1wbbv7alb",
-  "widgetName": "insert_col_input1"
-}
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "borderRadius": "0px",
+    "bottomRow": 14,
+    "boxShadow": "none",
+    "defaultText": "c{{Math.floor(Math.random()*10000)}}",
+    "dynamicBindingPathList": [
+      {
+        "key": "defaultText"
+      },
+      {
+        "key": "accentColor"
+      }
+    ],
+    "dynamicTriggerPathList": [],
+    "inputType": "TEXT",
+    "isDisabled": false,
+    "isLoading": false,
+    "isRequired": true,
+    "isVisible": "true",
+    "label": "CustomerID:",
+    "labelStyle": "BOLD",
+    "labelTextSize": "0.875rem",
+    "leftColumn": 3,
+    "parentColumnSpace": 7.6865234375,
+    "parentId": "9rhv3ioohq",
+    "parentRowSpace": 10,
+    "placeholderText": "CustomerID",
+    "resetOnSubmit": true,
+    "rightColumn": 41,
+    "topRow": 8,
+    "type": "INPUT_WIDGET",
+    "validation": "true",
+    "version": 1,
+    "widgetId": "h1wbbv7alb",
+    "widgetName": "insert_col_input1"
+  }

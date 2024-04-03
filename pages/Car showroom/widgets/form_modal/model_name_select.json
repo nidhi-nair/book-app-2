@@ -1,49 +1,49 @@
 {
-  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "animateLoading": true,
-  "borderRadius": "0px",
-  "bottomRow": 43,
-  "boxShadow": "none",
-  "defaultOptionValue": "",
-  "displayName": "Select",
-  "dynamicBindingPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
-  "dynamicHeight": "FIXED",
-  "dynamicPropertyPathList": [
-    {
-      "key": "sourceData"
-    }
-  ],
-  "dynamicTriggerPathList": [],
-  "hideCard": false,
-  "iconSVG": "/static/media/icon.bd99caba.svg",
-  "isDisabled": false,
-  "isFilterable": true,
-  "isLoading": false,
-  "isRequired": false,
-  "isVisible": true,
-  "key": "r7yqo41u3n",
-  "labelText": "",
-  "labelTextSize": "0.875rem",
-  "leftColumn": 22,
-  "maxDynamicHeight": 9000,
-  "minDynamicHeight": 4,
-  "optionLabel": "label",
-  "optionValue": "value",
-  "parentColumnSpace": 6.4140625,
-  "parentId": "vv8fyltfyr",
-  "parentRowSpace": 10,
-  "placeholderText": "Select option",
-  "renderMode": "CANVAS",
-  "rightColumn": 62,
-  "serverSideFiltering": false,
-  "sourceData": "{{select_car_db.data.map(c =>({label:c.car_name, value:c.car_name}))}}",
-  "topRow": 39,
-  "type": "SELECT_WIDGET",
-  "version": 1,
-  "widgetId": "fuxq91idgl",
-  "widgetName": "model_name_select"
-}
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "animateLoading": true,
+    "borderRadius": "0px",
+    "bottomRow": 43,
+    "boxShadow": "none",
+    "defaultOptionValue": "",
+    "displayName": "Select",
+    "dynamicBindingPathList": [
+      {
+        "key": "sourceData"
+      }
+    ],
+    "dynamicHeight": "FIXED",
+    "dynamicPropertyPathList": [
+      {
+        "key": "sourceData"
+      }
+    ],
+    "dynamicTriggerPathList": [],
+    "hideCard": false,
+    "iconSVG": "/static/media/icon.bd99caba.svg",
+    "isDisabled": false,
+    "isFilterable": true,
+    "isLoading": false,
+    "isRequired": false,
+    "isVisible": true,
+    "key": "r7yqo41u3n",
+    "labelText": "",
+    "labelTextSize": "0.875rem",
+    "leftColumn": 22,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4,
+    "optionLabel": "label",
+    "optionValue": "value",
+    "parentColumnSpace": 6.4140625,
+    "parentId": "vv8fyltfyr",
+    "parentRowSpace": 10,
+    "placeholderText": "Select option",
+    "renderMode": "CANVAS",
+    "rightColumn": 62,
+    "serverSideFiltering": false,
+    "sourceData": "{{select_car_db.data.map(c =>({label:c.car_name, value:c.car_name}))}}",
+    "topRow": 39,
+    "type": "SELECT_WIDGET",
+    "version": 1,
+    "widgetId": "fuxq91idgl",
+    "widgetName": "model_name_select"
+  }

@@ -1,11 +1,11 @@
 {
-  "id": "Car showroom_randomID",
-  "gitSyncId": "63c00ed3c727580240c84b23_63f84c612ea612208e11cb89",
-  "unpublishedCollection": {
-    "name": "randomID",
-    "pageId": "Car showroom",
-    "pluginId": "js-plugin",
-    "pluginType": "JS",
-    "variables": []
+    "gitSyncId": "63c00ed3c727580240c84b23_63f84c612ea612208e11cb89",
+    "id": "Car showroom_randomID",
+    "unpublishedCollection": {
+      "name": "randomID",
+      "pageId": "Car showroom",
+      "pluginId": "js-plugin",
+      "pluginType": "JS",
+      "variables": []
+    }
   }
-}

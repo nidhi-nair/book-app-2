@@ -14,28 +14,28 @@
 "icon": "book",
 "pages": [
 {
-  "id": "Customer Data",
-  "isDefault": false
+"id": "Customer Data",
+"isDefault": false
 },
 {
-  "id": "Car servicing",
-  "isDefault": false
+"id": "Car servicing",
+"isDefault": false
 },
 {
-  "id": "Car showroom",
-  "isDefault": false
+"id": "Car showroom",
+"isDefault": false
 },
 {
-  "id": "Home",
-  "isDefault": true
+"id": "Home",
+"isDefault": true
 },
 {
-  "id": "Query Testing",
-  "isDefault": false
+"id": "Query Testing",
+"isDefault": false
 },
 {
-  "id": "License Expiry",
-  "isDefault": false
+"id": "License Expiry",
+"isDefault": false
 }
 ],
 "unpublishedAppLayout": {
@@ -43,15 +43,15 @@
 },
 "unpublishedApplicationDetail": {
 "navigationSetting": {
-  "colorStyle": "theme",
-  "itemStyle": "text",
-  "logoAssetId": "",
-  "logoConfiguration": "logoAndApplicationTitle",
-  "navStyle": "sidebar",
-  "orientation": "side",
-  "position": "static",
-  "showNavbar": true,
-  "showSignIn": true
+"colorStyle": "theme",
+"itemStyle": "text",
+"logoAssetId": "",
+"logoConfiguration": "logoAndApplicationTitle",
+"navStyle": "sidebar",
+"orientation": "side",
+"position": "static",
+"showNavbar": true,
+"showSignIn": true
 }
 }
 }

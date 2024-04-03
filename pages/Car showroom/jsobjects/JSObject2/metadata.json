@@ -7,14 +7,14 @@
 "pluginId": "js-plugin",
 "pluginType": "JS",
 "variables": [
-  {
-    "name": "myVar1",
-    "value": "[]"
-  },
-  {
-    "name": "myVar2",
-    "value": "{}"
-  }
+{
+"name": "myVar1",
+"value": "[]"
+},
+{
+"name": "myVar2",
+"value": "{}"
+}
 ]
 }
 }

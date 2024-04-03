@@ -8,16 +8,16 @@
 "displayName": "Select",
 "dynamicBindingPathList": [
 {
-  "key": "accentColor"
+"key": "accentColor"
 },
 {
-  "key": "borderRadius"
+"key": "borderRadius"
 }
 ],
 "dynamicHeight": "FIXED",
 "dynamicPropertyPathList": [
 {
-  "key": "sourceData"
+"key": "sourceData"
 }
 ],
 "dynamicTriggerPathList": [],

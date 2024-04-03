@@ -7,26 +7,26 @@
 "pluginId": "js-plugin",
 "pluginType": "JS",
 "variables": [
-  {
-    "name": "requester",
-    "value": "\"Akhil\""
-  },
-  {
-    "name": "aprover",
-    "value": "\"Varma\""
-  },
-  {
-    "name": "amount",
-    "value": "\"$46.29\""
-  },
-  {
-    "name": "for",
-    "value": "\"Lunch\""
-  },
-  {
-    "name": "body",
-    "value": "\"The reimbursement is for ${for}, [Invoice](https://su63746.ap-south-1.aws.snowflakecomputing.com/console/login#/?returnUrl=internal%2Fworksheet) for your perusal.\""
-  }
+{
+"name": "requester",
+"value": "\"Akhil\""
+},
+{
+"name": "aprover",
+"value": "\"Varma\""
+},
+{
+"name": "amount",
+"value": "\"$46.29\""
+},
+{
+"name": "for",
+"value": "\"Lunch\""
+},
+{
+"name": "body",
+"value": "\"The reimbursement is for ${for}, [Invoice](https://su63746.ap-south-1.aws.snowflakecomputing.com/console/login#/?returnUrl=internal%2Fworksheet) for your perusal.\""
+}
 ]
 }
 }

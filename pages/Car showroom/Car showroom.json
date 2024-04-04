@@ -34,16 +34,6 @@
               "pluginType": "DB",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Car showroom_select_showroom_db",
-              "name": "select_showroom_db",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "(List.pageNo - 1) * 5"
-              ],
-              "timeoutInMillisecond": 10000
             }
           ],
           [

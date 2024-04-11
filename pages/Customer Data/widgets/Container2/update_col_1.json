@@ -1,36 +1,36 @@
 {
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "borderRadius": "0px",
-    "bottomRow": 13,
-    "boxShadow": "none",
-    "defaultText": "{{data_table.selectedRow.CustomerID}}",
-    "dynamicBindingPathList": [
-      {
-        "key": "defaultText"
-      },
-      {
-        "key": "accentColor"
-      }
-    ],
-    "dynamicTriggerPathList": [],
-    "inputType": "TEXT",
-    "isDisabled": false,
-    "isLoading": false,
-    "isRequired": true,
-    "isVisible": "true",
-    "label": "CustomerID:",
-    "labelStyle": "BOLD",
-    "labelTextSize": "0.875rem",
-    "leftColumn": 2,
-    "parentColumnSpace": 8.8963623046875,
-    "parentId": "52qrodu5iz",
-    "parentRowSpace": 10,
-    "resetOnSubmit": true,
-    "rightColumn": 62,
-    "topRow": 7,
-    "type": "INPUT_WIDGET",
-    "validation": "true",
-    "version": 1,
-    "widgetId": "in8e51pg3y",
-    "widgetName": "update_col_1"
+"accentColor": "{{appsmith.theme.colors.primaryColor}}",
+"borderRadius": "0px",
+"bottomRow": 13,
+"boxShadow": "none",
+"defaultText": "{{data_table.selectedRow.CustomerID}}",
+"dynamicBindingPathList": [
+  {
+    "key": "defaultText"
+  },
+  {
+    "key": "accentColor"
   }
+],
+"dynamicTriggerPathList": [],
+"inputType": "TEXT",
+"isDisabled": false,
+"isLoading": false,
+"isRequired": true,
+"isVisible": "true",
+"label": "CustomerID:",
+"labelStyle": "BOLD",
+"labelTextSize": "0.875rem",
+"leftColumn": 2,
+"parentColumnSpace": 8.8963623046875,
+"parentId": "52qrodu5iz",
+"parentRowSpace": 10,
+"resetOnSubmit": true,
+"rightColumn": 62,
+"topRow": 7,
+"type": "INPUT_WIDGET",
+"validation": "true",
+"version": 1,
+"widgetId": "in8e51pg3y",
+"widgetName": "update_col_1"
+}

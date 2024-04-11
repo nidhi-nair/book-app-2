@@ -1,44 +1,44 @@
 {
-    "accentColor": "#03B365",
-    "alignWidget": "RIGHT",
-    "animateLoading": true,
-    "borderRadius": "0px",
-    "bottomRow": 32,
-    "boxShadow": "none",
-    "defaultSwitchState": "{{data_table.selectedRow.UsersDoNotDisturb==1}}",
-    "displayName": "Switch",
-    "dynamicBindingPathList": [
-      {
-        "key": "defaultSwitchState"
-      }
-    ],
-    "dynamicHeight": "FIXED",
-    "dynamicPropertyPathList": [
-      {
-        "key": "defaultSwitchState"
-      }
-    ],
-    "dynamicTriggerPathList": [],
-    "hideCard": false,
-    "iconSVG": "/static/media/icon.a3115bc1.svg",
-    "isDisabled": false,
-    "isLoading": false,
-    "isVisible": true,
-    "key": "lh31qw774h",
-    "label": "",
-    "labelPosition": "Left",
-    "labelTextSize": "0.875rem",
-    "leftColumn": 42,
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4,
-    "parentColumnSpace": 4.3984375,
-    "parentId": "52qrodu5iz",
-    "parentRowSpace": 10,
-    "renderMode": "CANVAS",
-    "rightColumn": 61,
-    "topRow": 28,
-    "type": "SWITCH_WIDGET",
-    "version": 1,
-    "widgetId": "x6j938ot2g",
-    "widgetName": "Switch1"
+"accentColor": "#03B365",
+"alignWidget": "RIGHT",
+"animateLoading": true,
+"borderRadius": "0px",
+"bottomRow": 32,
+"boxShadow": "none",
+"defaultSwitchState": "{{data_table.selectedRow.UsersDoNotDisturb==1}}",
+"displayName": "Switch",
+"dynamicBindingPathList": [
+  {
+    "key": "defaultSwitchState"
   }
+],
+"dynamicHeight": "FIXED",
+"dynamicPropertyPathList": [
+  {
+    "key": "defaultSwitchState"
+  }
+],
+"dynamicTriggerPathList": [],
+"hideCard": false,
+"iconSVG": "/static/media/icon.a3115bc1.svg",
+"isDisabled": false,
+"isLoading": false,
+"isVisible": true,
+"key": "lh31qw774h",
+"label": "",
+"labelPosition": "Left",
+"labelTextSize": "0.875rem",
+"leftColumn": 42,
+"maxDynamicHeight": 9000,
+"minDynamicHeight": 4,
+"parentColumnSpace": 4.3984375,
+"parentId": "52qrodu5iz",
+"parentRowSpace": 10,
+"renderMode": "CANVAS",
+"rightColumn": 61,
+"topRow": 28,
+"type": "SWITCH_WIDGET",
+"version": 1,
+"widgetId": "x6j938ot2g",
+"widgetName": "Switch1"
+}

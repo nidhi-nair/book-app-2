@@ -1,36 +1,36 @@
 {
-"accentColor": "{{appsmith.theme.colors.primaryColor}}",
-"borderRadius": "0px",
-"bottomRow": 20,
-"boxShadow": "none",
-"defaultText": "{{data_table.selectedRow.CustomerEmailID}}",
-"dynamicBindingPathList": [
-  {
-    "key": "defaultText"
-  },
-  {
-    "key": "accentColor"
-  }
-],
-"dynamicTriggerPathList": [],
-"inputType": "TEXT",
-"isDisabled": false,
-"isLoading": false,
-"isRequired": true,
-"isVisible": "true",
-"label": "Customer Email ID:",
-"labelStyle": "BOLD",
-"labelTextSize": "0.875rem",
-"leftColumn": 2,
-"parentColumnSpace": 8.8963623046875,
-"parentId": "52qrodu5iz",
-"parentRowSpace": 10,
-"resetOnSubmit": true,
-"rightColumn": 62,
-"topRow": 14,
-"type": "INPUT_WIDGET",
-"validation": "true",
-"version": 1,
-"widgetId": "mlhvfasf31",
-"widgetName": "update_col_2"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "borderRadius": "0px",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "defaultText": "{{data_table.selectedRow.CustomerEmailID}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "true",
+  "label": "Customer Email ID:",
+  "labelStyle": "BOLD",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "parentColumnSpace": 8.8963623046875,
+  "parentId": "52qrodu5iz",
+  "parentRowSpace": 10,
+  "resetOnSubmit": true,
+  "rightColumn": 62,
+  "topRow": 14,
+  "type": "INPUT_WIDGET",
+  "validation": "true",
+  "version": 1,
+  "widgetId": "mlhvfasf31",
+  "widgetName": "update_col_2"
 }

@@ -1,35 +1,35 @@
 {
-"borderRadius": "0px",
-"bottomRow": 7,
-"boxShadow": "none",
-"dynamicBindingPathList": [],
-"dynamicHeight": "FIXED",
-"dynamicPropertyPathList": [
-  {
-    "key": "fontSize"
-  }
-],
-"dynamicTriggerPathList": [],
-"fontFamily": "System Default",
-"fontSize": "1.125rem",
-"fontStyle": "BOLD",
-"isLoading": false,
-"isVisible": "true",
-"labelTextSize": "0.875rem",
-"leftColumn": 2,
-"maxDynamicHeight": 9000,
-"minDynamicHeight": 4,
-"overflow": "NONE",
-"parentColumnSpace": 8.8963623046875,
-"parentId": "52qrodu5iz",
-"parentRowSpace": 10,
-"rightColumn": 64,
-"text": "Update Selected Row",
-"textAlign": "LEFT",
-"textColor": "#231F20",
-"topRow": 1,
-"type": "TEXT_WIDGET",
-"version": 1,
-"widgetId": "4hnz8ktmz5",
-"widgetName": "Text9"
+  "borderRadius": "0px",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.125rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.8963623046875,
+  "parentId": "52qrodu5iz",
+  "parentRowSpace": 10,
+  "rightColumn": 64,
+  "text": "Update Selected Row",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "4hnz8ktmz5",
+  "widgetName": "Text9"
 }

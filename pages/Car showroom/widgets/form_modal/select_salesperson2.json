@@ -1,56 +1,56 @@
 {
-"accentColor": "{{appsmith.theme.colors.primaryColor}}",
-"animateLoading": true,
-"borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-"bottomRow": 68,
-"boxShadow": "none",
-"defaultOptionValue": "",
-"displayName": "Select",
-"dynamicBindingPathList": [
-  {
-    "key": "sourceData"
-  },
-  {
-    "key": "borderRadius"
-  }
-],
-"dynamicHeight": "FIXED",
-"dynamicPropertyPathList": [
-  {
-    "key": "sourceData"
-  }
-],
-"dynamicTriggerPathList": [],
-"hideCard": false,
-"iconSVG": "/static/media/icon.bd99caba.svg",
-"isDeprecated": false,
-"isDisabled": false,
-"isFilterable": true,
-"isLoading": false,
-"isRequired": false,
-"isVisible": true,
-"key": "h3d6tjkd53",
-"labelAlignment": "left",
-"labelPosition": "Left",
-"labelText": "",
-"labelTextSize": "0.875rem",
-"labelWidth": 5,
-"leftColumn": 22,
-"maxDynamicHeight": 9000,
-"minDynamicHeight": 4,
-"optionLabel": "label",
-"optionValue": "value",
-"parentColumnSpace": 7.5625,
-"parentId": "vv8fyltfyr",
-"parentRowSpace": 10,
-"placeholderText": "Select option",
-"renderMode": "CANVAS",
-"rightColumn": 62,
-"serverSideFiltering": false,
-"sourceData": "{{select_salesperson.data}}",
-"topRow": 64,
-"type": "SELECT_WIDGET",
-"version": 1,
-"widgetId": "2ol8vl33yg",
-"widgetName": "select_salesperson2"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 68,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "displayName": "Select",
+  "dynamicBindingPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "h3d6tjkd53",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 22,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "optionLabel": "label",
+  "optionValue": "value",
+  "parentColumnSpace": 7.5625,
+  "parentId": "vv8fyltfyr",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 62,
+  "serverSideFiltering": false,
+  "sourceData": "{{select_salesperson.data}}",
+  "topRow": 64,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "2ol8vl33yg",
+  "widgetName": "select_salesperson2"
 }

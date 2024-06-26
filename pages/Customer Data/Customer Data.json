@@ -1,32 +1,60 @@
 {
-"gitSyncId": "641a8da5a8db493ee062abbb_641af079a8db493ee062aca5",
-"unpublishedPage": {
-  "layouts": [
-    {
-      "dsl": {
-        "backgroundColor": "none",
-        "bottomRow": 840,
-        "canExtend": true,
-        "containerStyle": "none",
-        "detachFromLayout": true,
-        "dynamicBindingPathList": [],
-        "dynamicTriggerPathList": [],
-        "leftColumn": 0,
-        "minHeight": 860,
-        "parentColumnSpace": 1,
-        "parentRowSpace": 1,
-        "rightColumn": 1160,
-        "snapColumns": 64,
-        "snapRows": 125,
-        "topRow": 0,
-        "type": "CANVAS_WIDGET",
-        "version": 89,
-        "widgetId": "0",
-        "widgetName": "MainContainer"
+  "unpublishedPage": {
+    "name": "Customer Data",
+    "slug": "customer-data",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "widgetName": "MainContainer",
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "bottomRow": 840,
+          "containerStyle": "none",
+          "topRow": 0,
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "canExtend": true,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "minHeight": 860,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Customer Data_FindQuery",
+              "name": "FindQuery",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "key_select.selectedOptionValue",
+                "data_table.pageSize",
+                "data_table.searchText||\"\"",
+                "order_select.selectedOptionValue",
+                "(data_table.pageNo - 1) * data_table.pageSize"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Customer Data",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
       }
-    }
-  ],
-  "name": "Customer Data",
-  "slug": "customer-data"
-}
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "gitSyncId": "641a8da5a8db493ee062abbb_641af079a8db493ee062aca5",
+  "deleted": false
 }

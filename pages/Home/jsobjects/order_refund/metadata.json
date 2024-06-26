@@ -1,11 +1,15 @@
 {
-  "id": "Home_order_refund",
-  "gitSyncId": "64b8e040cc2614643ec667c4_64c36b03263ef667202f969e",
   "unpublishedCollection": {
     "name": "order_refund",
     "pageId": "Home",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
-  }
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "667c3cc2809c606ca8c67acc_d51f7956-f6d8-48bc-b7c6-3748e5c0713d",
+  "id": "Home_order_refund",
+  "deleted": false
 }

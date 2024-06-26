@@ -1,32 +1,71 @@
 {
-  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26",
   "unpublishedPage": {
+    "name": "Home",
+    "slug": "home",
     "layouts": [
       {
+        "viewMode": false,
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 480,
-          "canExtend": true,
-          "containerStyle": "none",
-          "detachFromLayout": true,
-          "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
-          "leftColumn": 0,
-          "minHeight": 1292,
-          "parentColumnSpace": 1,
-          "parentRowSpace": 1,
           "rightColumn": 4896,
+          "widgetName": "MainContainer",
           "snapColumns": 64,
-          "snapRows": 125,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "bottomRow": 480,
+          "containerStyle": "none",
           "topRow": 0,
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "canExtend": true,
           "type": "CANVAS_WIDGET",
           "version": 89,
-          "widgetId": "0",
-          "widgetName": "MainContainer"
-        }
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Home_Select_public_agent1",
+              "name": "Select_public_agent1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText",
+                "Table1.sortOrder.column ? \"ORDER BY \" + Table1.sortOrder.column + \"  \" + (Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\") : \"\"",
+                "Table1.pageSize",
+                "Table1.pageOffset"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Home_Total_record_public_agent1",
+              "name": "Total_record_public_agent1",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [
+                "Table1.searchText"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Home",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
       }
     ],
-    "name": "Home",
-    "slug": "home"
-  }
+    "userPermissions": [],
+    "policies": []
+  },
+  "gitSyncId": "63c00ed3c727580240c84b23_63c00ed3c727580240c84b26",
+  "deleted": false
 }

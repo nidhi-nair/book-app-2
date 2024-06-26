@@ -1,11 +1,11 @@
 {
-  "id": "Car showroom_JSObject2",
-  "gitSyncId": "63c00ed3c727580240c84b23_65ae94e53402cc2577034d01",
   "unpublishedCollection": {
     "name": "JSObject2",
     "pageId": "Car showroom",
     "pluginId": "js-plugin",
     "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,6 +15,10 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ]
-  }
+    ],
+    "userPermissions": []
+  },
+  "gitSyncId": "667c3cc2809c606ca8c67acc_d38a6efd-fce0-4408-9cbf-be73e983a43d",
+  "id": "Car showroom_JSObject2",
+  "deleted": false
 }

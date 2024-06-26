@@ -1,11 +1,15 @@
 {
-  "id": "Car servicing_randomID",
-  "gitSyncId": "63c00ed3c727580240c84b23_63f84c612ea612208e11cb91",
   "unpublishedCollection": {
     "name": "randomID",
     "pageId": "Car servicing",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
-  }
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "667c3cc2809c606ca8c67acc_e531cd8a-fa98-4938-bce5-cece4c8514f1",
+  "id": "Car servicing_randomID",
+  "deleted": false
 }

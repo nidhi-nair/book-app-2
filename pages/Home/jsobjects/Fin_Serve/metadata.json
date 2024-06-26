@@ -1,11 +1,15 @@
 {
-  "id": "Home_Fin_Serve",
-  "gitSyncId": "63c00ed3c727580240c84b23_65bcb83c10e72a3b9aad86e9",
   "unpublishedCollection": {
     "name": "Fin_Serve",
     "pageId": "Home",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
-  }
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "667c3cc2809c606ca8c67acc_473fe9c1-7077-4262-9771-1003894c40ba",
+  "id": "Home_Fin_Serve",
+  "deleted": false
 }

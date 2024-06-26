@@ -1,11 +1,15 @@
 {
-  "id": "Home_main",
-  "gitSyncId": "63c00ed3c727580240c84b23_65647167f1d5f00cda453bb8",
   "unpublishedCollection": {
     "name": "main",
     "pageId": "Home",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "variables": []
-  }
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "gitSyncId": "667c3cc2809c606ca8c67acc_d81f0ca0-3f2b-4fe2-b45f-922fdf12a7c4",
+  "id": "Home_main",
+  "deleted": false
 }

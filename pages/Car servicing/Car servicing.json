@@ -1,31 +1,53 @@
 {
-"gitSyncId": "63c00ed3c727580240c84b23_63f84c602ea612208e11cb34",
-"unpublishedPage": {
-  "layouts": [
-    {
-      "dsl": {
-        "backgroundColor": "none",
-        "bottomRow": 890,
-        "canExtend": true,
-        "containerStyle": "none",
-        "detachFromLayout": true,
-        "dynamicBindingPathList": [],
-        "leftColumn": 0,
-        "minHeight": 640,
-        "parentColumnSpace": 1,
-        "parentRowSpace": 1,
-        "rightColumn": 1160,
-        "snapColumns": 64,
-        "snapRows": 125,
-        "topRow": 0,
-        "type": "CANVAS_WIDGET",
-        "version": 89,
-        "widgetId": "0",
-        "widgetName": "MainContainer"
+  "unpublishedPage": {
+    "name": "Car servicing",
+    "slug": "car-servicing",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "widgetName": "MainContainer",
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "bottomRow": 890,
+          "containerStyle": "none",
+          "topRow": 0,
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "canExtend": true,
+          "type": "CANVAS_WIDGET",
+          "version": 89,
+          "minHeight": 640,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Car servicing_select_supervisor_db",
+              "name": "select_supervisor_db",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Car servicing",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
       }
-    }
-  ],
-  "name": "Car servicing",
-  "slug": "car-servicing"
-}
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "gitSyncId": "63c00ed3c727580240c84b23_63f84c602ea612208e11cb34",
+  "deleted": false
 }

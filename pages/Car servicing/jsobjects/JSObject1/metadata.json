@@ -1,11 +1,11 @@
 {
-  "id": "Car servicing_JSObject1",
-  "gitSyncId": "63c00ed3c727580240c84b23_6540ef62c10da043db42770b",
   "unpublishedCollection": {
     "name": "JSObject1",
     "pageId": "Car servicing",
     "pluginId": "js-plugin",
     "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
     "variables": [
       {
         "name": "requester",
@@ -27,6 +27,10 @@
         "name": "body",
         "value": "\"The reimbursement is for ${for}, [Invoice](https://su63746.ap-south-1.aws.snowflakecomputing.com/console/login#/?returnUrl=internal%2Fworksheet) for your perusal.\""
       }
-    ]
-  }
+    ],
+    "userPermissions": []
+  },
+  "gitSyncId": "667c3cc2809c606ca8c67acc_c8eab7b0-d729-4aec-bf2e-bd8c40b13d98",
+  "id": "Car servicing_JSObject1",
+  "deleted": false
 }
